@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "geostudio-mcp",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["E:\\Github\\MCP_Geostudio\\server.py"],
+      "port": 0
+    }
+  ]
+}

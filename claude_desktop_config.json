@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "geostudio": {
+      "command": "python",
+      "args": ["E:\\Github\\MCP_Geostudio\\server.py"],
+      "env": {
+        "GEOSTUDIO_BACKEND": "pygeostudio"
+      }
+    }
+  }
+}

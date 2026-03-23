@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python calibration/calibrate_seep.py)",
+      "Bash(python3 -c \":*)",
+      "Bash(tasklist)",
+      "Bash(taskkill /F /IM GeoCmd.exe)",
+      "Bash(taskkill /F /PID 108360)",
+      "Read(//mnt/e/Github/MCP_Geostudio/**)",
+      "Bash(python -c \":*)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(r''E:\\\\Github\\\\MCP_Geostudio\\\\calibration\\\\calibrate_seep.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "mcp__geostudio__get_slope_results"
+    ]
+  }
+}

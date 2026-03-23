@@ -1,0 +1,18 @@
+# GeoStudio MCP Server - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# MCP framework
+mcp>=1.0.0
+
+# --- Optional backends (install the one you need) ---
+
+# PyGeoStudio backend (open-source, works with .gsz files):
+#   pip install PyGeoStudio
+# PyGeoStudio
+
+# Official GeoStudio 2025.1+ scripting API:
+#   No pip install needed - use the Python interpreter that ships with GeoStudio.
+#   The 'geostudio' module is bundled with the GeoStudio installation.
+#   Typically found at:
+#     Windows: C:\Program Files\Seequent\GeoStudio 2025\Python\python.exe
+#     macOS:   /Applications/GeoStudio 2025.app/Contents/Python/bin/python3
