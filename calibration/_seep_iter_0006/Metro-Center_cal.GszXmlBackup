@@ -392,58 +392,58 @@
             <Name>HC WYC</Name>
             <Function>HydKFn(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,Smooth=100,Tension=100,SlopeBefore=0,SlopeAfter=0,LogInput=true,LogOutput=true)</Function>
             <Points Len="21">
-              <Point X="0" Y="3.76982977942655e-06" />
-              <Point X="0.2088543421089709" Y="3.76962400922563e-06" />
-              <Point X="0.3828259804593421" Y="3.76933792812003e-06" />
-              <Point X="0.7017126377874892" Y="3.76865102384526e-06" />
-              <Point X="1.286225729611816" Y="3.76700760178256e-06" />
-              <Point X="2.357626952154834" Y="3.76307466711938e-06" />
-              <Point X="4.321484726638476" Y="3.75365396186776e-06" />
-              <Point X="7.921198146085312" Y="3.73111277095494e-06" />
-              <Point X="14.51940340845603" Y="3.67724300837506e-06" />
-              <Point X="26.61378638049462" Y="3.54917542142983e-06" />
-              <Point X="48.78255707766163" Y="3.25085957071815e-06" />
-              <Point X="89.41748614843608" Y="2.59997405958481e-06" />
-              <Point X="163.9005273212098" Y="1.46151454260869e-06" />
-              <Point X="300.4265050750425" Y="3.74943352096633e-07" />
-              <Point X="550.6759888253558" Y="3.36403318681314e-08" />
-              <Point X="1009.378465435455" Y="1.54085780644815e-09" />
-              <Point X="1850.171257072833" Y="5.59351449872015e-11" />
-              <Point X="3391.328225951103" Y="1.91301438280844e-12" />
-              <Point X="6216.239222269963" Y="6.45143835893429e-14" />
-              <Point X="11394.24658834085" Y="2.16869369954562e-15" />
-              <Point X="20885.43421089709" Y="7.28486236638784e-17" />
+              <Point X="0" Y="3.08207398118302e-06" />
+              <Point X="0.2088543421089709" Y="3.08190575104547e-06" />
+              <Point X="0.3828259804593421" Y="3.08167186167017e-06" />
+              <Point X="0.7017126377874892" Y="3.08111027403447e-06" />
+              <Point X="1.286225729611816" Y="3.07976667268482e-06" />
+              <Point X="2.357626952154834" Y="3.076551250158e-06" />
+              <Point X="4.321484726638476" Y="3.06884922851796e-06" />
+              <Point X="7.921198146085312" Y="3.05042038104149e-06" />
+              <Point X="14.51940340845603" Y="3.00637844723163e-06" />
+              <Point X="26.61378638049462" Y="2.90167510499828e-06" />
+              <Point X="48.78255707766163" Y="2.65778305271766e-06" />
+              <Point X="89.41748614843608" Y="2.12564303155781e-06" />
+              <Point X="163.9005273212098" Y="1.19488046104301e-06" />
+              <Point X="300.4265050750425" Y="3.06539875147987e-07" />
+              <Point X="550.6759888253558" Y="2.7503096329432e-08" />
+              <Point X="1009.378465435455" Y="1.25974859126902e-09" />
+              <Point X="1850.171257072833" Y="4.57305143960579e-11" />
+              <Point X="3391.328225951103" Y="1.56401010121462e-12" />
+              <Point X="6216.239222269963" Y="5.27445838955151e-14" />
+              <Point X="11394.24658834085" Y="1.77304409366246e-15" />
+              <Point X="20885.43421089709" Y="5.95583516223343e-17" />
             </Points>
-            <Estimate>FnEstHydK(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,HydKEstMethod=VanGenuchten,VolWCFnNum=3,HydKSat=3.76983e-06,ResWC=0.09,HydEstMax=20885.43421089708,HydEstMin=0.2088543421089708,NumPoints=20)</Estimate>
+            <Estimate>FnEstHydK(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,HydKEstMethod=VanGenuchten,VolWCFnNum=3,HydKSat=3.08207e-06,ResWC=0.09,HydEstMax=20885.43421089708,HydEstMin=0.2088543421089708,NumPoints=20)</Estimate>
           </KFn>
           <KFn>
             <ID>4</ID>
             <Name>HC UYC</Name>
             <Function>HydKFn(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,Smooth=100,Tension=100,SlopeBefore=0,SlopeAfter=0,LogInput=true,LogOutput=true)</Function>
             <Points Len="21">
-              <Point X="0" Y="2.24722742936944e-07" />
-              <Point X="0.2088543421089709" Y="2.24709555314298e-07" />
-              <Point X="0.3828259804593421" Y="2.24691142023935e-07" />
-              <Point X="0.7017126377874892" Y="2.24646819362167e-07" />
-              <Point X="1.286225729611816" Y="2.24540510800423e-07" />
-              <Point X="2.357626952154834" Y="2.24285461897085e-07" />
-              <Point X="4.321484726638476" Y="2.23673002658007e-07" />
-              <Point X="7.921198146085312" Y="2.2220397771262e-07" />
-              <Point X="14.51940340845603" Y="2.18685484742641e-07" />
-              <Point X="26.61378638049462" Y="2.10309014916524e-07" />
-              <Point X="48.78255707766163" Y="1.90825965003687e-07" />
-              <Point X="89.41748614843608" Y="1.48800390705891e-07" />
-              <Point X="163.9005273212098" Y="7.83557018968325e-08" />
-              <Point X="300.4265050750425" Y="1.7787322271696e-08" />
-              <Point X="550.6759888253558" Y="1.42618026427764e-09" />
-              <Point X="1009.378465435455" Y="6.20884446514499e-11" />
-              <Point X="1850.171257072833" Y="2.21252171677852e-12" />
-              <Point X="3391.328225951103" Y="7.4976510490152e-14" />
-              <Point X="6216.239222269963" Y="2.51106320451386e-15" />
-              <Point X="11394.24658834085" Y="8.38734479223927e-17" />
-              <Point X="20885.43421089709" Y="2.79979509876808e-18" />
+              <Point X="0" Y="5.0299114734167e-07" />
+              <Point X="0.2088543421089709" Y="5.02961629824401e-07" />
+              <Point X="0.3828259804593421" Y="5.02920415829212e-07" />
+              <Point X="0.7017126377874892" Y="5.0282120955305e-07" />
+              <Point X="1.286225729611816" Y="5.0258326182802e-07" />
+              <Point X="2.357626952154834" Y="5.02012392414265e-07" />
+              <Point X="4.321484726638476" Y="5.00641540620014e-07" />
+              <Point X="7.921198146085312" Y="4.97353459791627e-07" />
+              <Point X="14.51940340845603" Y="4.89478107289456e-07" />
+              <Point X="26.61378638049462" Y="4.70729269884539e-07" />
+              <Point X="48.78255707766163" Y="4.27120859354757e-07" />
+              <Point X="89.41748614843608" Y="3.33056095114707e-07" />
+              <Point X="163.9005273212098" Y="1.75381556324757e-07" />
+              <Point X="300.4265050750425" Y="3.98129068764831e-08" />
+              <Point X="550.6759888253558" Y="3.19218267839648e-09" />
+              <Point X="1009.378465435455" Y="1.38970971979705e-10" />
+              <Point X="1850.171257072833" Y="4.95223056774924e-12" />
+              <Point X="3391.328225951103" Y="1.6781799893613e-13" />
+              <Point X="6216.239222269963" Y="5.62044831679666e-15" />
+              <Point X="11394.24658834085" Y="1.87731785624491e-16" />
+              <Point X="20885.43421089709" Y="6.26670950454754e-18" />
             </Points>
-            <Estimate>FnEstHydK(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,HydKEstMethod=VanGenuchten,VolWCFnNum=4,HydKSat=2.24723e-07,ResWC=0.08,HydEstMax=20885.43421089708,HydEstMin=0.2088543421089708,NumPoints=20)</Estimate>
+            <Estimate>FnEstHydK(OutputParam=WaterConductivityX,InputParam=PoreWaterPressure,HydKEstMethod=VanGenuchten,VolWCFnNum=4,HydKSat=5.02991e-07,ResWC=0.08,HydEstMax=20885.43421089708,HydEstMin=0.2088543421089708,NumPoints=20)</Estimate>
           </KFn>
         </KFns>
         <VolWCFns Len="4">
@@ -1162,7 +1162,7 @@
         <EffectivePoissonsRatioYPrime Missing="true" />
         <ShearModulusXYPrime Missing="true" />
       </StressStrain>
-      <Hydraulic KYXRatio="117799" KFnNum="2" VolWCFnNum="2" />
+      <Hydraulic KYXRatio="142211" KFnNum="2" VolWCFnNum="2" />
     </Material>
     <Material>
       <ID>7</ID>
@@ -1183,7 +1183,7 @@
         <EffectivePoissonsRatioYPrime Missing="true" />
         <ShearModulusXYPrime Missing="true" />
       </StressStrain>
-      <Hydraulic KSat="3.76983e-06" VolWC="0.5" Beta="0.00104" />
+      <Hydraulic KSat="3.08207e-06" VolWC="0.5" Beta="0.00104" />
     </Material>
     <Material>
       <ID>8</ID>
@@ -1204,7 +1204,7 @@
         <EffectivePoissonsRatioYPrime Missing="true" />
         <ShearModulusXYPrime Missing="true" />
       </StressStrain>
-      <Hydraulic KSat="2.24723e-07" VolWC="0.45" Beta="0.00104" />
+      <Hydraulic KSat="5.02991e-07" VolWC="0.45" Beta="0.00104" />
     </Material>
   </Materials>
   <PageLayout>
