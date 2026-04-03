@@ -1,0 +1,1398 @@
+﻿(Gsi.FileServ) 03/26/26 11:36:00 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_169d4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:36:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 11:36:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:36:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:36:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:36:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:36:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:36:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 11:36:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 11:36:16 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_169d4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:37:01 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_12bd4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:37:01 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 11:37:01 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:37:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:37:17 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:37:17 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:37:17 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:37:17 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 11:37:17 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 11:37:17 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_12bd4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:38:00 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9444_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:38:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 11:38:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:38:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:38:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:38:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:38:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:38:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 11:38:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 11:38:16 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9444_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:41:44 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9b60_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 11:41:44 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 11:41:44 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:41:44 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:42:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:42:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 11:42:01 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 11:42:01 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 11:42:01 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 11:42:01 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9b60_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 12:01:45 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_f420_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 12:01:45 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 12:01:45 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:01:45 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:02:02 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:02:02 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:02:02 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:02:02 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 12:02:02 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 12:02:02 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_f420_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 12:15:26 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_fd30_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 12:15:26 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 12:15:26 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:15:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:15:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:15:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 12:15:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 12:15:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 12:15:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 12:15:43 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_fd30_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:41:43 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_b5f4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:41:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:41:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:41:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:00 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:42:00 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:42:00 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_b5f4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:42:10 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1868c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:42:10 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:42:10 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:10 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:27 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:27 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:27 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:27 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:42:27 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:42:27 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1868c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:42:37 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b2b8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:42:37 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:42:37 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:37 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:42:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:42:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:42:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:42:53 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b2b8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:04 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1d1a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:04 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:43:04 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:04 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:20 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:43:20 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:43:20 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1d1a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:30 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_147a4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:30 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:43:30 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:30 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:47 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:47 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:47 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:47 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:43:47 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:43:47 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_147a4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:57 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_bffc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:43:57 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:43:57 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:43:57 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:44:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:44:13 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_bffc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:44:24 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_d1cc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:44:24 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:44:24 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:24 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:44:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:44:40 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:44:40 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:44:40 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_d1cc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:45:26 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1d154_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:45:26 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:45:26 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:26 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:43 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:45:43 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:45:43 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1d154_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:45:53 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1f11c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:45:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:45:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:45:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:46:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:46:09 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1f11c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:46:20 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b010_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:46:20 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:46:20 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:20 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:36 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:46:36 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:46:36 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b010_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:46:46 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6aa4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:46:46 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:46:46 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:46:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:03 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:47:03 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:47:03 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6aa4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:47:13 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_3820_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:47:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:47:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:29 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:47:29 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:47:29 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_3820_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:47:40 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_20c9c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:47:40 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:47:40 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:40 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:47:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:47:56 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:47:56 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:47:56 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_20c9c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:06 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_215d4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:06 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:48:06 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:23 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:48:23 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:48:23 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_215d4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:33 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_10110_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:33 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:48:33 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:49 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:48:49 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:48:49 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_10110_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:59 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_c848_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:48:59 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:48:59 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:48:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:16 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:49:16 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:49:16 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_c848_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:49:26 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_75d0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:49:26 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:49:26 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:43 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:49:43 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:49:43 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_75d0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:49:53 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1f54c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:49:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:49:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:49:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:50:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:50:09 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1f54c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:50:19 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1673c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:50:19 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:50:19 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:19 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:36 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:36 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:50:36 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:50:36 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1673c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:50:46 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1c5c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:50:46 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:50:46 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:50:46 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:03 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:03 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:51:03 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:51:03 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1c5c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:51:13 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_21d78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:51:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:51:13 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:13 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:29 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:29 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:51:29 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:51:29 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_21d78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:51:39 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_144dc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:51:39 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:51:39 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:39 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:51:56 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:51:56 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:51:56 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:51:56 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_144dc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:06 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_e474_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:06 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:52:06 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:06 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:23 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:23 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:52:23 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:52:23 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_e474_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:33 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6d34_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:33 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:52:33 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:33 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:49 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:49 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:52:49 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:52:49 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6d34_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:59 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6a40_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:52:59 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:52:59 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:52:59 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:16 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:16 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:53:16 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:53:16 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6a40_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:53:26 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_dca0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:53:26 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:53:26 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:26 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:43 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:43 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:53:43 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:53:43 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_dca0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:53:53 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_ddc8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:53:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:53:53 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:53:53 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:09 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:54:09 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:54:09 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_ddc8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:54:19 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b62c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center-seep-final.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 17:54:19 File service gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 17:54:19 File service gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:19 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:36 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:36 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 17:54:36 control pipe (gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 17:54:36 File service gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 17:54:36 File service gs_metro-center-seep-final_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 17:54:36 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1b62c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center-seep-final.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:12:50 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1cbe8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:12:50 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:12:50 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:12:50 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:06 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:06 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:06 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:06 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:13:06 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:13:06 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1cbe8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:13:16 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_14778_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:13:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:13:16 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:16 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:33 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:13:49 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:14:11 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:14:11 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:14:11 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:14:11 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:14:11 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:14:11 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_14778_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:16:42 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_f1c4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:16:42 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:16:42 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:16:42 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:16:58 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:16:58 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:16:58 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:16:58 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:16:58 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:16:58 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_f1c4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:17:08 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6fe4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:17:08 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:17:08 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:08 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:25 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:25 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:25 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:25 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:17:25 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:17:25 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6fe4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:17:35 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_67f4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:17:35 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:17:35 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:35 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:52 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:52 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:17:52 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:17:52 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:17:52 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:17:52 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_67f4_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:02 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_11054_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:02 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:18:02 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:02 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:18 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:18 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:18 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:18 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:18:18 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:18:18 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_11054_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:28 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_e654_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:28 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:18:28 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:28 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:45 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:45 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:45 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:45 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:18:45 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:18:45 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_e654_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:55 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1a890_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 03/26/26 21:18:55 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 03/26/26 21:18:55 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:18:55 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:19:11 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:19:11 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 03/26/26 21:19:11 control pipe (gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 03/26/26 21:19:11 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 03/26/26 21:19:11 File service gs__seep_incl_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 03/26/26 21:19:11 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_1a890_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_incl_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:28:38 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2580_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:28:38 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:28:38 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:28:38 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:28:56 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:28:56 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:28:56 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:28:56 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:28:56 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:28:56 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2580_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:29:52 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8500_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:29:52 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:29:52 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:29:52 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:30:09 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:30:09 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:30:09 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:30:09 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:30:09 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:30:09 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8500_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:33:13 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9794_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:33:13 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:33:13 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:33:13 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:33:30 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:33:30 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:33:30 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:33:30 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:33:30 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:33:30 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9794_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:36:20 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_90a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:36:20 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:36:20 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:20 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:37 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:37 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:37 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:37 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:36:37 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:36:37 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_90a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:36:47 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8b78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:36:47 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:36:47 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:36:47 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:37:04 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:37:04 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:37:04 control pipe (gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:37:04 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:37:04 File service gs_metro-center_cal_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:37:04 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8b78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:56:33 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_90e0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:56:33 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:56:33 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:56:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:56:49 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:56:49 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:56:49 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:56:49 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:56:49 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:56:49 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_90e0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:57:00 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7b08_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:57:00 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:57:00 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:00 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:16 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:16 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:16 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:16 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:57:16 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:57:16 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7b08_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:57:26 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8d7c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 22:57:26 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 22:57:26 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:26 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:43 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:43 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 22:57:43 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 22:57:43 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 22:57:43 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 22:57:43 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8d7c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:02:40 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8218_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:02:40 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:02:40 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:02:40 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:02:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:02:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:02:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:02:57 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:02:57 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:02:57 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8218_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:03:07 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9aac_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:03:07 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:03:07 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:03:07 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:03:23 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:03:23 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:03:23 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:03:23 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:03:23 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:03:23 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9aac_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:05:37 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8dec_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:05:37 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:05:37 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:37 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:05:54 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:10 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:10 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:06:10 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:06:10 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8dec_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:06:19 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_61e0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:06:19 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:06:19 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:19 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:35 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:06:52 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:06:52 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:06:52 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:06:52 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_61e0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:07:01 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7fcc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:07:01 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:07:01 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:01 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:34 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:34 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:07:34 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:07:34 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7fcc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:07:41 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_98fc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:07:41 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:07:41 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:41 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:07:57 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:07:57 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:07:57 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:07:57 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_98fc_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:09:17 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6658_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:09:17 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:09:17 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:17 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:33 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:50 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:50 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:09:50 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:09:50 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6658_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:09:58 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8e40_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:09:58 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea starting
+(Gsi.FileServ) 04/02/26 23:09:58 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea control pipe ready
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:09:58 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:15 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) disconnect 
+(Gsi.FileServ) 04/02/26 23:10:31 control pipe (gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea) connect with status 
+(Gsi.FileServ) 04/02/26 23:10:31 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea has been shut down
+(Gsi.FileServ) 04/02/26 23:10:31 File service gs__seep_suction_work_gsz_ae68bb2b1a79e5171631f3ce461f3aea exiting with status 0
+(Gsi.FileServ) 04/02/26 23:10:31 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8e40_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_suction_work.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:13:40 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_84ac_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:13:40 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:13:40 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:40 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:13:56 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:13 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:13 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:14:13 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:14:13 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_84ac_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:14:21 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2b3c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:14:21 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:14:21 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:21 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:38 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:14:55 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:14:55 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:14:55 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:14:55 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2b3c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:15:03 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6a34_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:15:03 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:15:03 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:15:03 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:15:19 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:15:19 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:15:19 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:15:19 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:15:19 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:15:19 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6a34_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:20:45 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7518_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:20:45 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:20:45 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:20:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:02 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:18 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:18 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:21:18 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:21:18 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7518_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:21:27 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6f00_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:21:27 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:21:27 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:27 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:21:43 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:00 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:00 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:22:00 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:22:00 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_6f00_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:22:08 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2484_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:22:08 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:22:08 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:08 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:25 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:41 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:41 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:22:41 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:22:41 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2484_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:22:50 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_958c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:22:50 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:22:50 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:22:50 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:23:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:23:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:23:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:23:06 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:23:06 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:23:06 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_958c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:30:06 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9788_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:30:06 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:30:06 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:06 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:22 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:39 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:39 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:30:39 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:30:39 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_9788_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:30:47 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8f1c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:30:47 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:30:47 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:30:47 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:04 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:20 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:20 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:31:20 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:31:20 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8f1c_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:31:29 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8d78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:31:29 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 starting
+(Gsi.FileServ) 04/02/26 23:31:29 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 control pipe ready
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:29 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) disconnect 
+(Gsi.FileServ) 04/02/26 23:31:45 control pipe (gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790) connect with status 
+(Gsi.FileServ) 04/02/26 23:31:45 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 has been shut down
+(Gsi.FileServ) 04/02/26 23:31:45 File service gs_metro-center_cal_gsz_aeed1f9a034536609bf111c187043790 exiting with status 0
+(Gsi.FileServ) 04/02/26 23:31:45 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_8d78_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_work_tmp\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:47:13 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7394_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0001\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/02/26 23:47:13 File service gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0 starting
+(Gsi.FileServ) 04/02/26 23:47:13 File service gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0 control pipe ready
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:13 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:30 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:47:46 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:41 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/02/26 23:54:57 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/03/26 00:01:40 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/03/26 00:01:40 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) disconnect 
+(Gsi.FileServ) 04/03/26 00:01:40 control pipe (gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0) connect with status 
+(Gsi.FileServ) 04/03/26 00:01:40 File service gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0 has been shut down
+(Gsi.FileServ) 04/03/26 00:01:40 File service gs_metro-center_cal_gsz_a00e98187053cc0b1b870a9bba9302e0 exiting with status 0
+(Gsi.FileServ) 04/03/26 00:01:40 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_7394_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0001\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:01:50 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_99a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0002\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:01:50 File service gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214 starting
+(Gsi.FileServ) 04/03/26 00:01:50 File service gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214 control pipe ready
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:01:50 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:07 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:02:23 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:08:54 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:09:10 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:15:51 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:15:51 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) disconnect 
+(Gsi.FileServ) 04/03/26 00:15:51 control pipe (gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214) connect with status 
+(Gsi.FileServ) 04/03/26 00:15:51 File service gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214 has been shut down
+(Gsi.FileServ) 04/03/26 00:15:51 File service gs_metro-center_cal_gsz_b2c7ad22583decf44de3cc364ca76214 exiting with status 0
+(Gsi.FileServ) 04/03/26 00:15:51 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_99a0_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0002\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:15:57 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2484_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0003\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:15:57 File service gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd starting
+(Gsi.FileServ) 04/03/26 00:15:57 File service gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd control pipe ready
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:15:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:14 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:16:30 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:22:57 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:23:13 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:03 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:03 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:03 control pipe (gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:03 File service gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd has been shut down
+(Gsi.FileServ) 04/03/26 00:30:03 File service gs_metro-center_cal_gsz_c0f02d93068b67112a6d537f13d9d8dd exiting with status 0
+(Gsi.FileServ) 04/03/26 00:30:03 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_2484_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0003\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:30:09 Starting '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_af8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0004\Metro-Center_cal.gsz" "StartAsReadWrite"'
+(Gsi.FileServ) 04/03/26 00:30:09 File service gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870 starting
+(Gsi.FileServ) 04/03/26 00:30:09 File service gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870 control pipe ready
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:09 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:26 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:30:42 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20  Error:  Failed Windows system service call to ReadFile(): The pipe has been ended.
+(Gsi.FileServ) 04/03/26 00:33:20 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:33:20 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) disconnect 
+(Gsi.FileServ) 04/03/26 00:33:20 control pipe (gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870) connect with status 
+(Gsi.FileServ) 04/03/26 00:33:20 File service gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870 has been shut down
+(Gsi.FileServ) 04/03/26 00:33:20 File service gs_metro-center_cal_gsz_e2203aba7e91e68d056ad152cabdd870 exiting with status 0
+(Gsi.FileServ) 04/03/26 00:33:20 Ending '"C:\Program Files\Seequent\GeoStudio 2025.2\Bin\Gsi.FileServ.exe"  /assertinteractive /ready:"\\.\pipe\GSI_ready_af8_3" /log:"stdoutstderr_fs.log,level=1" "E:\Github\MCP_Geostudio\calibration\_seep_iter_0004\Metro-Center_cal.gsz" "StartAsReadWrite"'

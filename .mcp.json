@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "geostudio": {
+      "command": "C:\\python312\\python.exe",
+      "args": [
+        "E:\\Github\\MCP_Geostudio\\server.py"
+      ]
+    }
+  }
+}

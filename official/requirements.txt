@@ -1,0 +1,2 @@
+# Local distribution of the GeoStudio Python API.
+C:\Program Files\Seequent\GeoStudio 2025.2\API\gsi-2025.2.1-py3-none-any.whl

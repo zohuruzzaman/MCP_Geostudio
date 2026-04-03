@@ -1,0 +1,52 @@
+Opening E:\Github\MCP_Geostudio\calibration\Metro-Center_cal.gsz ...
+
+--- Checking TimeIncrements for Rainfall Simulation ---
+TimeIncrements:
+{
+  "TimeSteps": [
+    {
+      "ElapsedTime": {
+        "Units": "d",
+        "Value": 864000.0
+      },
+      "Save": true,
+      "Step": {
+        "Value": 432000.0,
+        "Units": "d"
+      }
+    }
+  ],
+  "ActualTimeNumSteps": "1",
+  "TimeIncrementKind": "Exponential",
+  "TimeDuration": {
+    "Units": "d",
+    "Value": 432000.0
+  },
+  "TimeSaveStepsEvery": "1",
+  "TimeCustomElapsed": "",
+  "TimeStart": {
+    "Value": 432000.0,
+    "Units": "d"
+  },
+  "TimeInitialIncrement": {
+    "Units": "d",
+    "Value": 432000.0
+  }
+}
+
+--- Checking Rainfall Boundary Function ---
+Error getting Rainfall Function: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "Object 'Functions["rainfall"]' not found"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:5, grpc_message:"Object \'Functions[\"rainfall\"]\' not found"}"
+>
+
+--- Checking Material ---
+Material Weathered Yazoo Clay in Active Zone:
+{
+  "Color": "RGB=(191,255,128)",
+  "Hydraulic": {
+    "SeepModel": "None"
+  },
+  "Name": "Weathered Yazoo Clay in Active Zone"
+}

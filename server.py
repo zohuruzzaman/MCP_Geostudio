@@ -1,20 +1,31 @@
 """
 GeoStudio MCP Server
 ====================
-Exposes GeoStudio capabilities as MCP tools for Claude.
-Supports two backends:
-  - "official"  : GeoStudio 2025.1+ built-in Python scripting API
-  - "pygeostudio": PyGeoStudio open-source library (reads/writes .gsz files)
+Exposes GeoStudio 2025.2+ capabilities as MCP tools using the official
+gsi scripting API (gRPC-based).
 
-Set the GEOSTUDIO_BACKEND environment variable to choose:
-  export GEOSTUDIO_BACKEND=official        (default)
-  export GEOSTUDIO_BACKEND=pygeostudio
+Requirements
+------------
+- Python 3.12.x  (>=3.12.1, <3.13.0 — enforced by gsi wheel)
+- gsi package installed:
+    pip install -r "C:\\Program Files\\Seequent\\GeoStudio 2025.2\\API\\requirements.txt"
+- GeoStudio 2025.2 background service running (starts automatically with GeoStudio)
+
+.mcp.json example
+-----------------
+{
+  "mcpServers": {
+    "geostudio": {
+      "command": "C:\\\\Python312\\\\python.exe",
+      "args": ["E:\\\\Github\\\\MCP_Geostudio\\\\server.py"]
+    }
+  }
+}
 """
 
 import os
 import json
 import asyncio
-from pathlib import Path
 from typing import Any
 
 from mcp.server import Server
@@ -22,18 +33,30 @@ from mcp.server.stdio import stdio_server
 from mcp import types
 
 # ---------------------------------------------------------------------------
-# Backend selection
+# gsi import — clear error if not installed / wrong Python version
 # ---------------------------------------------------------------------------
-BACKEND = os.environ.get("GEOSTUDIO_BACKEND", "official").lower()
+try:
+    import grpc
+    from google.protobuf.json_format import MessageToDict
+    import gsi
+    _GSI_AVAILABLE = True
+    _GSI_ERROR     = None
+except ImportError as _e:
+    _GSI_AVAILABLE = False
+    _GSI_ERROR     = (
+        f"gsi module not available: {_e}\n"
+        "Install with:\n"
+        r'  pip install -r "C:\Program Files\Seequent\GeoStudio 2025.2\API\requirements.txt"'
+        "\nAlso ensure you are using Python 3.12.x (required by gsi)."
+    )
 
 app = Server("geostudio-mcp")
 
 # ---------------------------------------------------------------------------
-# Utility helpers
+# Helpers
 # ---------------------------------------------------------------------------
 
 def _ok(data: Any) -> list[types.TextContent]:
-    """Wrap a result as a successful MCP text response."""
     if isinstance(data, (dict, list)):
         text = json.dumps(data, indent=2, default=str)
     else:
@@ -42,484 +65,238 @@ def _ok(data: Any) -> list[types.TextContent]:
 
 
 def _err(msg: str) -> list[types.TextContent]:
-    """Wrap an error message as an MCP text response."""
     return [types.TextContent(type="text", text=f"ERROR: {msg}")]
 
 
-# ---------------------------------------------------------------------------
-# Official GeoStudio 2025.1+ scripting API backend
-# ---------------------------------------------------------------------------
+def _require_gsi():
+    """Raise RuntimeError with setup instructions if gsi is not available."""
+    if not _GSI_AVAILABLE:
+        raise RuntimeError(_GSI_ERROR)
 
-def _get_official_api():
-    """
-    Import the GeoStudio scripting module shipped with GeoStudio 2025.1+.
-    The module is typically named 'geostudio' and lives in the GeoStudio
-    Python distribution (configured via the GeoStudio app settings).
-    """
+
+def _open(file_path: str):
+    """Open a GeoStudio project safely, raising RuntimeError on failure."""
+    _require_gsi()
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"GSZ file not found: {file_path}")
     try:
-        import geostudio  # noqa: F401 - provided by GeoStudio installation
-        return geostudio
-    except ImportError as e:
-        raise ImportError(
-            "Could not import the 'geostudio' module. "
-            "Make sure you are running this server with the Python interpreter "
-            "that ships with GeoStudio 2025.1+, or that GeoStudio's Python "
-            "distribution is on your PYTHONPATH.\n"
-            f"Original error: {e}"
+        return gsi.OpenProject(file_path)
+    except Exception as e:
+        raise RuntimeError(
+            f"Could not connect to GeoStudio service: {e}\n"
+            "Ensure GeoStudio 2025.2 is running (the background service starts with the app)."
         )
 
-
-def official_open_project(file_path: str):
-    gs = _get_official_api()
-    return gs.open(file_path)
-
-
-def official_list_analyses(file_path: str) -> list[dict]:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    analyses = []
-    for a in project.analyses:
-        analyses.append({
-            "name": a.name,
-            "type": a.analysis_type,
-            "parent": getattr(a, "parent_name", None),
-        })
-    return analyses
-
-
-def official_run_analysis(file_path: str, analysis_name: str) -> dict:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    analysis = project.get_analysis(analysis_name)
-    analysis.solve()
-    return {"status": "solved", "analysis": analysis_name}
-
-
-def official_get_slope_results(file_path: str, analysis_name: str) -> dict:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    analysis = project.get_analysis(analysis_name)
-    results = analysis.results
-    return {
-        "analysis": analysis_name,
-        "critical_fos": results.critical_slip_surface.factor_of_safety,
-        "critical_slip_surface": {
-            "x_entry": results.critical_slip_surface.entry_x,
-            "y_entry": results.critical_slip_surface.entry_y,
-            "x_exit": results.critical_slip_surface.exit_x,
-            "y_exit": results.critical_slip_surface.exit_y,
-        },
-        "num_slip_surfaces": results.num_slip_surfaces,
-    }
-
-
-def official_get_seep_results(file_path: str, analysis_name: str,
-                               x: float, y: float) -> dict:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    analysis = project.get_analysis(analysis_name)
-    results = analysis.results
-    pt = results.query_point(x, y)
-    return {
-        "analysis": analysis_name,
-        "x": x, "y": y,
-        "pore_water_pressure": pt.pore_water_pressure,
-        "total_head": pt.total_head,
-        "pressure_head": pt.pressure_head,
-        "flow_velocity_x": pt.flow_velocity_x,
-        "flow_velocity_y": pt.flow_velocity_y,
-    }
-
-
-def official_update_material(file_path: str, material_name: str,
-                              properties: dict, save: bool = True) -> dict:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    mat = project.get_material(material_name)
-    for prop, value in properties.items():
-        setattr(mat, prop, value)
-    if save:
-        project.save()
-    return {"material": material_name, "updated_properties": properties}
-
-
-def official_update_piezometric_line(file_path: str, analysis_name: str,
-                                     points: list[dict], save: bool = True) -> dict:
-    """
-    Update a piezometric line in a SEEP/W or SLOPE/W analysis.
-    points: list of {"x": float, "y": float}
-    """
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    analysis = project.get_analysis(analysis_name)
-    coords = [(p["x"], p["y"]) for p in points]
-    analysis.set_piezometric_line(coords)
-    if save:
-        project.save()
-    return {"analysis": analysis_name, "piezometric_line_updated": True,
-            "num_points": len(coords)}
-
-
-def official_sensitivity_analysis(file_path: str, analysis_name: str,
-                                   material_name: str, property_name: str,
-                                   values: list[float]) -> dict:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    mat = project.get_material(material_name)
-    results = []
-    for v in values:
-        setattr(mat, property_name, v)
-        analysis = project.get_analysis(analysis_name)
-        analysis.solve()
-        fos = analysis.results.critical_slip_surface.factor_of_safety
-        results.append({"value": v, "fos": fos})
-    return {
-        "analysis": analysis_name,
-        "material": material_name,
-        "property": property_name,
-        "sensitivity": results,
-    }
-
-
-def official_list_materials(file_path: str) -> list[dict]:
-    gs = _get_official_api()
-    project = gs.open(file_path)
-    mats = []
-    for m in project.materials:
-        props = {}
-        for attr in ["cohesion", "friction_angle", "unit_weight",
-                     "hydraulic_conductivity_x", "hydraulic_conductivity_y",
-                     "saturated_water_content", "residual_water_content"]:
-            val = getattr(m, attr, None)
-            if val is not None:
-                props[attr] = val
-        mats.append({"name": m.name, "type": m.material_type, "properties": props})
-    return mats
-
-
 # ---------------------------------------------------------------------------
-# PyGeoStudio backend
-# ---------------------------------------------------------------------------
-
-def _get_pygeostudio():
-    try:
-        import PyGeoStudio as pgs  # noqa: F401
-        return pgs
-    except ImportError as e:
-        raise ImportError(
-            "Could not import 'PyGeoStudio'. Install it with:\n"
-            "  pip install PyGeoStudio\n"
-            f"Original error: {e}"
-        )
-
-
-def _find_analysis(study, analysis_name: str):
-    """Find an analysis by name from study.analyses list."""
-    for a in study.analyses:
-        if a.data.get("Name") == analysis_name:
-            return a
-    raise ValueError(f"Analysis '{analysis_name}' not found. Available: {[a.data.get('Name') for a in study.analyses]}")
-
-
-def _find_material(study, material_name: str):
-    """Find a material by name from study.materials list."""
-    for m in study.materials:
-        if m.data.get("Name") == material_name:
-            return m
-    raise ValueError(f"Material '{material_name}' not found. Available: {[m.data.get('Name') for m in study.materials]}")
-
-
-def pygs_list_analyses(file_path: str) -> list[dict]:
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    return [
-        {
-            "name": a.data.get("Name", "Unknown"),
-            "type": a.data.get("Kind", "Unknown"),
-            "id": a.data.get("ID", ""),
-        }
-        for a in study.analyses
-    ]
-
-
-def pygs_list_materials(file_path: str) -> list[dict]:
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    mats = []
-    for mat in study.materials:
-        d = mat.data
-        props = {"SlopeModel": d.get("SlopeModel")}
-        # StressStrain holds cohesion/phi/unit_weight - extract if available
-        ss = d.get("StressStrain")
-        if ss is not None and hasattr(ss, "data"):
-            for key in ["Cohesion", "Phi", "UnitWeight", "Ksat"]:
-                val = ss.data.get(key)
-                if val is not None:
-                    props[key] = val
-        mats.append({"name": d.get("Name", "Unknown"), "id": d.get("ID", ""), "properties": props})
-    return mats
-
-
-def pygs_update_material(file_path: str, material_name: str,
-                          properties: dict, output_path: str = None) -> dict:
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    mat = _find_material(study, material_name)
-    for prop, value in properties.items():
-        mat.data[prop] = value
-    save_path = output_path or file_path
-    study.save(save_path)
-    return {"material": material_name, "updated": properties, "saved_to": save_path}
-
-
-def pygs_run_analysis(file_path: str, analysis_name: str) -> dict:
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    analysis = _find_analysis(study, analysis_name)
-    analysis.solve()
-    return {"status": "solved", "analysis": analysis_name}
-
-
-def pygs_get_seep_results(file_path: str, analysis_name: str) -> dict:
-    """Export SEEP/W nodal results to a summary dict."""
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    analysis = _find_analysis(study, analysis_name)
-    result = analysis.data.get("Results")
-    if result is None:
-        raise ValueError(f"No results found for analysis '{analysis_name}'. Has it been solved?")
-    nodes = result.get_nodes() if hasattr(result, "get_nodes") else []
-    pwps = [n.pore_water_pressure for n in nodes if hasattr(n, "pore_water_pressure")]
-    heads = [n.total_head for n in nodes if hasattr(n, "total_head")]
-    return {
-        "analysis": analysis_name,
-        "num_nodes": len(nodes),
-        "pore_water_pressure": {
-            "min": min(pwps) if pwps else None,
-            "max": max(pwps) if pwps else None,
-            "mean": sum(pwps) / len(pwps) if pwps else None,
-        },
-        "total_head": {
-            "min": min(heads) if heads else None,
-            "max": max(heads) if heads else None,
-            "mean": sum(heads) / len(heads) if heads else None,
-        },
-    }
-
-
-def pygs_sensitivity_analysis(file_path: str, analysis_name: str,
-                               material_name: str, property_name: str,
-                               values: list[float]) -> dict:
-    pgs = _get_pygeostudio()
-    study = pgs.GeoStudioFile(file_path)
-    results_list = []
-    for v in values:
-        mat = _find_material(study, material_name)
-        mat.data[property_name] = v
-        analysis = _find_analysis(study, analysis_name)
-        analysis.solve()
-        fos = None
-        result = analysis.data.get("Results")
-        if result and hasattr(result, "critical_factor_of_safety"):
-            fos = result.critical_factor_of_safety
-        results_list.append({"value": v, "fos": fos})
-    return {
-        "analysis": analysis_name,
-        "material": material_name,
-        "property": property_name,
-        "sensitivity": results_list,
-    }
-
-
-# ---------------------------------------------------------------------------
-# MCP tool registry
+# Tool: get_backend_info
 # ---------------------------------------------------------------------------
 
 @app.list_tools()
 async def list_tools() -> list[types.Tool]:
     return [
         types.Tool(
+            name="get_backend_info",
+            description=(
+                "Check the GeoStudio MCP backend status: whether the gsi module is "
+                "installed, the Python version, and whether the GeoStudio service is reachable."
+            ),
+            inputSchema={"type": "object", "properties": {}, "required": []},
+        ),
+        types.Tool(
             name="list_analyses",
             description=(
-                "List all analyses defined in a GeoStudio project file (.gsz). "
-                "Returns name, type (SLOPE/W, SEEP/W, etc.), and parent analysis."
+                "List all analyses in a GeoStudio project file (.gsz), "
+                "including their type (SEEP/W, SLOPE/W, etc.) and parent analysis."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     }
                 },
-                "required": ["file_path"]
-            }
+                "required": ["file_path"],
+            },
         ),
         types.Tool(
             name="list_materials",
             description=(
-                "List all materials defined in a GeoStudio project file, "
-                "including their geotechnical properties (cohesion, friction angle, "
-                "unit weight, hydraulic conductivity, etc.)."
+                "List all materials in a GeoStudio project file with their geotechnical "
+                "properties (cohesion, friction angle, unit weight, hydraulic conductivity, etc.)."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
-                    }
-                },
-                "required": ["file_path"]
-            }
-        ),
-        types.Tool(
-            name="run_analysis",
-            description=(
-                "Run (solve) a specific analysis in a GeoStudio project. "
-                "Works for SLOPE/W and SEEP/W analyses."
-            ),
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "file_path": {
-                        "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the analysis to solve."
-                    }
+                        "description": "Name of the analysis to query materials from.",
+                    },
                 },
-                "required": ["file_path", "analysis_name"]
-            }
+                "required": ["file_path", "analysis_name"],
+            },
         ),
         types.Tool(
             name="get_slope_results",
             description=(
-                "Get SLOPE/W results from a solved analysis: "
-                "critical factor of safety (FOS), critical slip surface geometry, "
-                "and total number of slip surfaces evaluated."
+                "Get SLOPE/W results from a solved analysis: critical factor of safety (FOS), "
+                "critical slip surface geometry, and total number of slip surfaces evaluated."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the SLOPE/W analysis."
-                    }
+                        "description": "Name of the SLOPE/W analysis.",
+                    },
                 },
-                "required": ["file_path", "analysis_name"]
-            }
+                "required": ["file_path", "analysis_name"],
+            },
         ),
         types.Tool(
             name="get_seep_results",
             description=(
-                "Get SEEP/W results at a specific point (x, y) in a solved analysis: "
-                "pore water pressure, total head, pressure head, and flow velocity components. "
-                "(Official API only - for PyGeoStudio use get_seep_summary instead.)"
+                "Get SEEP/W results at a specific (x, y) coordinate: pore water pressure, "
+                "total head, pressure head, and volumetric water content."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the SEEP/W analysis."
+                        "description": "Name of the SEEP/W analysis.",
                     },
-                    "x": {
-                        "type": "number",
-                        "description": "X coordinate of the query point."
+                    "x": {"type": "number", "description": "X coordinate (model units)."},
+                    "y": {"type": "number", "description": "Y coordinate (model units)."},
+                    "step": {
+                        "type": "integer",
+                        "description": "Timestep number (1-based). Use 1 for steady-state.",
+                        "default": 1,
                     },
-                    "y": {
-                        "type": "number",
-                        "description": "Y coordinate of the query point."
-                    }
                 },
-                "required": ["file_path", "analysis_name", "x", "y"]
-            }
+                "required": ["file_path", "analysis_name", "x", "y"],
+            },
         ),
         types.Tool(
             name="get_seep_summary",
             description=(
-                "Get a statistical summary of SEEP/W results across all mesh nodes: "
-                "min/max/mean pore water pressure and total head. "
-                "(PyGeoStudio backend only.)"
+                "Get a summary of SEEP/W nodal results (pore pressure, total head, VWC) "
+                "across the entire mesh at a given timestep: min, max, mean values."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the SEEP/W analysis."
-                    }
+                        "description": "Name of the SEEP/W analysis.",
+                    },
+                    "step": {
+                        "type": "integer",
+                        "description": "Timestep number (1-based). Use 1 for steady-state.",
+                        "default": 1,
+                    },
                 },
-                "required": ["file_path", "analysis_name"]
-            }
+                "required": ["file_path", "analysis_name"],
+            },
+        ),
+        types.Tool(
+            name="run_analysis",
+            description=(
+                "Solve one or more GeoStudio analyses. "
+                "Set solve_dependencies=true to also solve all upstream parent analyses."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "file_path": {
+                        "type": "string",
+                        "description": "Absolute path to the .gsz project file.",
+                    },
+                    "analysis_names": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "List of analysis names to solve.",
+                    },
+                    "solve_dependencies": {
+                        "type": "boolean",
+                        "description": "If true, solve parent analyses first. Default: true.",
+                        "default": True,
+                    },
+                },
+                "required": ["file_path", "analysis_names"],
+            },
         ),
         types.Tool(
             name="update_material",
             description=(
-                "Update material properties in a GeoStudio project. "
-                "For example, change cohesion, friction angle, unit weight, "
-                "or hydraulic conductivity values. Saves the file after updating."
+                "Update one or more properties of a named material in a GeoStudio project "
+                "and save the file. Supports strength (cohesion, phi), hydraulic (KSat, KYX), "
+                "and any other gsi-accessible material property."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
+                    },
+                    "analysis_name": {
+                        "type": "string",
+                        "description": "Name of the analysis containing the material.",
                     },
                     "material_name": {
                         "type": "string",
-                        "description": "Name of the material to update."
+                        "description": "Name of the material to update.",
                     },
                     "properties": {
                         "type": "object",
                         "description": (
-                            "Dictionary of property names and new values. "
-                            "Official API keys: cohesion, friction_angle, unit_weight, "
-                            "hydraulic_conductivity_x, hydraulic_conductivity_y. "
-                            "PyGeoStudio keys: cohesion, phi, unit_weight, ksat."
-                        )
+                            "Key-value pairs of properties to update. "
+                            "Keys use GeoStudio property names, e.g. "
+                            "{\"CohesionPrime\": 80.0, \"PhiPrime\": 18.5}"
+                        ),
                     },
-                    "output_path": {
-                        "type": "string",
-                        "description": "Optional output path to save to a new file (PyGeoStudio only). Defaults to overwriting the input file."
-                    }
                 },
-                "required": ["file_path", "material_name", "properties"]
-            }
+                "required": ["file_path", "analysis_name", "material_name", "properties"],
+            },
         ),
         types.Tool(
             name="update_piezometric_line",
             description=(
-                "Update the piezometric line in a SLOPE/W or SEEP/W analysis. "
-                "Useful for incorporating real-time sensor data or changing water table conditions. "
-                "(Official API only.)"
+                "Update the piezometric surface (water table) in a SLOPE/W or SEEP/W analysis "
+                "by replacing its control points. "
+                "Points should be provided in order from left to right."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the analysis to update."
+                        "description": "Name of the analysis.",
+                    },
+                    "line_name": {
+                        "type": "string",
+                        "description": "Name of the piezometric line object.",
                     },
                     "points": {
                         "type": "array",
@@ -527,197 +304,481 @@ async def list_tools() -> list[types.Tool]:
                             "type": "object",
                             "properties": {
                                 "x": {"type": "number"},
-                                "y": {"type": "number"}
+                                "y": {"type": "number"},
                             },
-                            "required": ["x", "y"]
+                            "required": ["x", "y"],
                         },
-                        "description": "List of {x, y} coordinate pairs defining the piezometric line."
-                    }
+                        "description": "Ordered list of {x, y} points defining the water table.",
+                    },
                 },
-                "required": ["file_path", "analysis_name", "points"]
-            }
+                "required": ["file_path", "analysis_name", "line_name", "points"],
+            },
         ),
         types.Tool(
             name="sensitivity_analysis",
             description=(
-                "Run a parametric sensitivity analysis: vary a single material property "
-                "across a list of values, re-solve the analysis each time, and return "
-                "the factor of safety (SLOPE/W) for each value. "
-                "Great for understanding how FOS changes with cohesion, friction angle, etc."
+                "Run a one-at-a-time (OAT) sensitivity analysis on material strength or "
+                "hydraulic parameters. Varies each parameter over a range, solves the target "
+                "analysis, and returns the FS or other result metric at each value."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "file_path": {
                         "type": "string",
-                        "description": "Absolute path to the .gsz GeoStudio project file."
+                        "description": "Absolute path to the .gsz project file.",
                     },
                     "analysis_name": {
                         "type": "string",
-                        "description": "Name of the SLOPE/W analysis."
+                        "description": "Name of the SLOPE/W analysis to evaluate FS in.",
                     },
                     "material_name": {
                         "type": "string",
-                        "description": "Name of the material whose property will be varied."
+                        "description": "Name of the material whose parameter is varied.",
                     },
-                    "property_name": {
+                    "parameter": {
                         "type": "string",
-                        "description": (
-                            "Property to vary. "
-                            "Official API: cohesion, friction_angle, unit_weight. "
-                            "PyGeoStudio: cohesion, phi, unit_weight."
-                        )
+                        "description": "Property name to vary, e.g. 'CohesionPrime' or 'PhiPrime'.",
                     },
                     "values": {
                         "type": "array",
                         "items": {"type": "number"},
-                        "description": "List of values to test for the property."
-                    }
+                        "description": "List of values to test for the parameter.",
+                    },
+                    "seep_analysis_name": {
+                        "type": "string",
+                        "description": "If provided, re-solve this SEEP/W analysis before each FS solve.",
+                    },
                 },
-                "required": ["file_path", "analysis_name", "material_name",
-                             "property_name", "values"]
-            }
-        ),
-        types.Tool(
-            name="get_backend_info",
-            description="Return which backend is active (official or pygeostudio) and check if the required library is importable.",
-            inputSchema={
-                "type": "object",
-                "properties": {}
-            }
+                "required": ["file_path", "analysis_name", "material_name", "parameter", "values"],
+            },
         ),
     ]
 
 
 # ---------------------------------------------------------------------------
-# MCP tool dispatcher
+# Tool dispatch
 # ---------------------------------------------------------------------------
 
 @app.call_tool()
 async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
     try:
-        # ---- backend info -----------------------------------------------
         if name == "get_backend_info":
-            info = {"backend": BACKEND}
-            if BACKEND == "official":
-                try:
-                    _get_official_api()
-                    info["importable"] = True
-                except ImportError as e:
-                    info["importable"] = False
-                    info["error"] = str(e)
-            else:
-                try:
-                    _get_pygeostudio()
-                    info["importable"] = True
-                except ImportError as e:
-                    info["importable"] = False
-                    info["error"] = str(e)
-            return _ok(info)
+            return await _tool_get_backend_info()
 
-        # ---- list analyses -----------------------------------------------
-        if name == "list_analyses":
-            fp = arguments["file_path"]
-            if BACKEND == "official":
-                return _ok(official_list_analyses(fp))
-            else:
-                return _ok(pygs_list_analyses(fp))
+        elif name == "list_analyses":
+            return await _tool_list_analyses(**arguments)
 
-        # ---- list materials ----------------------------------------------
-        if name == "list_materials":
-            fp = arguments["file_path"]
-            if BACKEND == "official":
-                return _ok(official_list_materials(fp))
-            else:
-                return _ok(pygs_list_materials(fp))
+        elif name == "list_materials":
+            return await _tool_list_materials(**arguments)
 
-        # ---- run analysis ------------------------------------------------
-        if name == "run_analysis":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            if BACKEND == "official":
-                return _ok(official_run_analysis(fp, an))
-            else:
-                return _ok(pygs_run_analysis(fp, an))
+        elif name == "get_slope_results":
+            return await _tool_get_slope_results(**arguments)
 
-        # ---- slope results -----------------------------------------------
-        if name == "get_slope_results":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            if BACKEND == "official":
-                return _ok(official_get_slope_results(fp, an))
-            else:
-                return _err(
-                    "get_slope_results is only available with the official backend. "
-                    "Set GEOSTUDIO_BACKEND=official and use GeoStudio 2025.1+."
-                )
+        elif name == "get_seep_results":
+            return await _tool_get_seep_results(**arguments)
 
-        # ---- seep point results (official only) --------------------------
-        if name == "get_seep_results":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            x = arguments["x"]
-            y = arguments["y"]
-            if BACKEND == "official":
-                return _ok(official_get_seep_results(fp, an, x, y))
-            else:
-                return _err(
-                    "get_seep_results (point query) requires the official backend. "
-                    "Use get_seep_summary for PyGeoStudio, or switch to GEOSTUDIO_BACKEND=official."
-                )
+        elif name == "get_seep_summary":
+            return await _tool_get_seep_summary(**arguments)
 
-        # ---- seep summary (pygeostudio) ----------------------------------
-        if name == "get_seep_summary":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            if BACKEND == "pygeostudio":
-                return _ok(pygs_get_seep_results(fp, an))
-            else:
-                return _err(
-                    "get_seep_summary is only available with the pygeostudio backend. "
-                    "Use get_seep_results for point queries with the official API."
-                )
+        elif name == "run_analysis":
+            return await _tool_run_analysis(**arguments)
 
-        # ---- update material --------------------------------------------
-        if name == "update_material":
-            fp = arguments["file_path"]
-            mn = arguments["material_name"]
-            props = arguments["properties"]
-            if BACKEND == "official":
-                return _ok(official_update_material(fp, mn, props))
-            else:
-                out = arguments.get("output_path")
-                return _ok(pygs_update_material(fp, mn, props, out))
+        elif name == "update_material":
+            return await _tool_update_material(**arguments)
 
-        # ---- update piezometric line (official only) --------------------
-        if name == "update_piezometric_line":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            pts = arguments["points"]
-            if BACKEND == "official":
-                return _ok(official_update_piezometric_line(fp, an, pts))
-            else:
-                return _err(
-                    "update_piezometric_line requires the official GeoStudio 2025.1+ backend. "
-                    "Set GEOSTUDIO_BACKEND=official."
-                )
+        elif name == "update_piezometric_line":
+            return await _tool_update_piezometric_line(**arguments)
 
-        # ---- sensitivity analysis ---------------------------------------
-        if name == "sensitivity_analysis":
-            fp = arguments["file_path"]
-            an = arguments["analysis_name"]
-            mn = arguments["material_name"]
-            pn = arguments["property_name"]
-            vals = arguments["values"]
-            if BACKEND == "official":
-                return _ok(official_sensitivity_analysis(fp, an, mn, pn, vals))
-            else:
-                return _ok(pygs_sensitivity_analysis(fp, an, mn, pn, vals))
+        elif name == "sensitivity_analysis":
+            return await _tool_sensitivity_analysis(**arguments)
 
-        return _err(f"Unknown tool: {name}")
+        else:
+            return _err(f"Unknown tool: {name}")
 
     except Exception as e:
-        return _err(f"Tool '{name}' raised an exception: {type(e).__name__}: {e}")
+        return _err(str(e))
+
+
+# ---------------------------------------------------------------------------
+# Tool implementations
+# ---------------------------------------------------------------------------
+
+async def _tool_get_backend_info() -> list[types.TextContent]:
+    import sys
+    info: dict[str, Any] = {
+        "python_version": sys.version,
+        "gsi_available":  _GSI_AVAILABLE,
+    }
+    if not _GSI_AVAILABLE:
+        info["setup_error"] = _GSI_ERROR
+        return _ok(info)
+
+    # Try to reach the GeoStudio service with a lightweight connection test
+    info["gsi_module"] = str(getattr(gsi, "__version__", "installed (version unknown)"))
+    try:
+        # Opening a non-existent path will still tell us if the service is up
+        gsi.OpenProject("__ping__")
+    except FileNotFoundError:
+        info["service_status"] = "reachable (file not found is expected for ping)"
+    except Exception as e:
+        if "not found" in str(e).lower() or "no such file" in str(e).lower():
+            info["service_status"] = "reachable"
+        else:
+            info["service_status"] = f"error — {e}"
+    return _ok(info)
+
+
+async def _tool_list_analyses(file_path: str) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        resp = project.Get(gsi.GetRequest(object="Analyses"))
+        data = MessageToDict(resp.data.struct_value)
+        analyses = []
+        for entry in data.get("analyses", data.get("Analyses", [])):
+            analyses.append({
+                "name":   entry.get("Name", entry.get("name", "")),
+                "type":   entry.get("Type", entry.get("type", entry.get("Kind", ""))),
+                "parent": entry.get("ParentName", entry.get("parentName", None)),
+            })
+        return _ok({"analyses": analyses, "count": len(analyses)})
+    finally:
+        project.Close()
+
+
+async def _tool_list_materials(
+    file_path: str, analysis_name: str
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        resp = project.Get(gsi.GetRequest(
+            analysis=analysis_name,
+            object="Materials",
+        ))
+        data = MessageToDict(resp.data.struct_value)
+        # Normalise — gsi may return a list or a dict keyed by name
+        raw = data.get("materials", data.get("Materials", data))
+        if isinstance(raw, dict):
+            mats = [{"name": k, **v} for k, v in raw.items()]
+        elif isinstance(raw, list):
+            mats = raw
+        else:
+            mats = [data]
+        return _ok({"materials": mats, "count": len(mats)})
+    finally:
+        project.Close()
+
+
+async def _tool_get_slope_results(
+    file_path: str, analysis_name: str
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        # Load results into memory
+        project.LoadResults(gsi.LoadResultsRequest(analysis=analysis_name))
+
+        # Query critical slip surface data
+        crit_req = gsi.QueryResultsRequest(
+            analysis=analysis_name,
+            step=1,
+            table=gsi.ResultType.CriticalSlip,
+            dataparams=[
+                gsi.DataParamType.eSlipFOSMin,
+                gsi.DataParamType.eXCoord,
+                gsi.DataParamType.eYCoord,
+                gsi.DataParamType.eSlipNum,
+            ],
+        )
+        crit_resp = project.QueryResults(crit_req)
+
+        def _vals(param):
+            entry = crit_resp.results.get(param)
+            return list(entry.values) if entry else []
+
+        fos_vals = _vals(gsi.DataParamType.eSlipFOSMin)
+        x_vals   = _vals(gsi.DataParamType.eXCoord)
+        y_vals   = _vals(gsi.DataParamType.eYCoord)
+
+        # Count total slip surfaces via Slip table
+        slip_req = gsi.QueryResultsRequest(
+            analysis=analysis_name,
+            step=1,
+            table=gsi.ResultType.Slip,
+            dataparams=[gsi.DataParamType.eSlipNum],
+        )
+        slip_resp = project.QueryResults(slip_req)
+        slip_nums = list(slip_resp.results.get(gsi.DataParamType.eSlipNum, {}).values or [])
+
+        critical_fos = min(fos_vals) if fos_vals else None
+
+        return _ok({
+            "analysis":            analysis_name,
+            "critical_fos":        critical_fos,
+            "critical_slip": {
+                "x_points":        x_vals,
+                "y_points":        y_vals,
+            },
+            "total_slip_surfaces": len(slip_nums),
+        })
+    finally:
+        project.Close()
+
+
+async def _tool_get_seep_results(
+    file_path: str,
+    analysis_name: str,
+    x: float,
+    y: float,
+    step: int = 1,
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        project.LoadResults(gsi.LoadResultsRequest(analysis=analysis_name))
+
+        req = gsi.QueryResultsAtCoordinatesRequest(
+            analysis=analysis_name,
+            step=step,
+            dataparams=[
+                gsi.DataParamType.eWaterPressure,
+                gsi.DataParamType.eWaterPressureHead,
+                gsi.DataParamType.eWaterTotalHead,
+                gsi.DataParamType.eVolWC,
+                gsi.DataParamType.eMatricSuction,
+            ],
+            points=[gsi.Point(x=x, y=y)],
+        )
+        resp = project.QueryResultsAtCoordinates(req)
+
+        def _val(param):
+            entry = resp.results.get(param)
+            return entry.values[0] if entry and entry.values else None
+
+        return _ok({
+            "analysis":             analysis_name,
+            "step":                 step,
+            "x":                    x,
+            "y":                    y,
+            "pore_water_pressure":  _val(gsi.DataParamType.eWaterPressure),
+            "pressure_head":        _val(gsi.DataParamType.eWaterPressureHead),
+            "total_head":           _val(gsi.DataParamType.eWaterTotalHead),
+            "volumetric_wc":        _val(gsi.DataParamType.eVolWC),
+            "matric_suction":       _val(gsi.DataParamType.eMatricSuction),
+        })
+    finally:
+        project.Close()
+
+
+async def _tool_get_seep_summary(
+    file_path: str,
+    analysis_name: str,
+    step: int = 1,
+) -> list[types.TextContent]:
+    import statistics
+
+    project = _open(file_path)
+    try:
+        project.LoadResults(gsi.LoadResultsRequest(analysis=analysis_name))
+
+        req = gsi.QueryResultsRequest(
+            analysis=analysis_name,
+            step=step,
+            table=gsi.ResultType.Nodes,
+            dataparams=[
+                gsi.DataParamType.eWaterPressure,
+                gsi.DataParamType.eWaterTotalHead,
+                gsi.DataParamType.eVolWC,
+                gsi.DataParamType.eMatricSuction,
+            ],
+        )
+        resp = project.QueryResults(req)
+
+        def _summarise(param, label):
+            entry = resp.results.get(param)
+            if not entry or not entry.values:
+                return {label: "no data"}
+            vals = [v for v in entry.values if v is not None]
+            return {
+                f"{label}_min":  round(min(vals), 4),
+                f"{label}_max":  round(max(vals), 4),
+                f"{label}_mean": round(statistics.mean(vals), 4),
+            }
+
+        result = {
+            "analysis": analysis_name,
+            "step":     step,
+            **_summarise(gsi.DataParamType.eWaterPressure,  "pore_pressure"),
+            **_summarise(gsi.DataParamType.eWaterTotalHead, "total_head"),
+            **_summarise(gsi.DataParamType.eVolWC,          "vwc"),
+            **_summarise(gsi.DataParamType.eMatricSuction,  "matric_suction"),
+        }
+        return _ok(result)
+    finally:
+        project.Close()
+
+
+async def _tool_run_analysis(
+    file_path: str,
+    analysis_names: list[str],
+    solve_dependencies: bool = True,
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        req  = gsi.SolveAnalysesRequest(
+            analyses=analysis_names,
+            solve_dependencies=solve_dependencies,
+        )
+        resp = project.SolveAnalyses(req)
+
+        status = {}
+        for name, result in resp.completion_status.items():
+            status[name] = {
+                "succeeded":     result.succeeded,
+                "error_message": result.error_message or None,
+            }
+        return _ok({
+            "all_succeeded": resp.all_succeeded,
+            "analyses":      status,
+        })
+    finally:
+        project.Close()
+
+
+async def _tool_update_material(
+    file_path: str,
+    analysis_name: str,
+    material_name: str,
+    properties: dict,
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        updated = {}
+        for prop, value in properties.items():
+            obj_path = f'Materials["{material_name}"].{prop}'
+            if isinstance(value, bool):
+                data = gsi.Value(bool_value=value)
+            elif isinstance(value, str):
+                data = gsi.Value(string_value=value)
+            else:
+                data = gsi.Value(number_value=float(value))
+
+            project.Set(gsi.SetRequest(
+                analysis=analysis_name,
+                object=obj_path,
+                data=data,
+            ))
+            updated[prop] = value
+
+        return _ok({
+            "material":           material_name,
+            "analysis":           analysis_name,
+            "updated_properties": updated,
+            "status":             "saved",
+        })
+    finally:
+        project.Close()
+
+
+async def _tool_update_piezometric_line(
+    file_path: str,
+    analysis_name: str,
+    line_name: str,
+    points: list[dict],
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        from google.protobuf.struct_pb2 import Value, ListValue, Struct
+
+        pt_list = []
+        for pt in points:
+            s = Struct()
+            s.fields["x"].number_value = float(pt["x"])
+            s.fields["y"].number_value = float(pt["y"])
+            v = Value()
+            v.struct_value.CopyFrom(s)
+            pt_list.append(v)
+
+        lv = ListValue()
+        lv.values.extend(pt_list)
+        data = gsi.Value()
+        data.list_value.CopyFrom(lv)
+
+        obj_path = f'CurrentAnalysis.Objects.PiezometricSurfaces["{line_name}"].Points'
+        project.Set(gsi.SetRequest(
+            analysis=analysis_name,
+            object=obj_path,
+            data=data,
+        ))
+
+        return _ok({
+            "line_name":    line_name,
+            "analysis":     analysis_name,
+            "points_set":   len(points),
+            "status":       "saved",
+        })
+    finally:
+        project.Close()
+
+
+async def _tool_sensitivity_analysis(
+    file_path: str,
+    analysis_name: str,
+    material_name: str,
+    parameter: str,
+    values: list[float],
+    seep_analysis_name: str | None = None,
+) -> list[types.TextContent]:
+    project = _open(file_path)
+    try:
+        results = []
+        obj_path = f'Materials["{material_name}"].{parameter}'
+
+        for val in values:
+            # Set parameter
+            project.Set(gsi.SetRequest(
+                analysis=analysis_name,
+                object=obj_path,
+                data=gsi.Value(number_value=float(val)),
+            ))
+
+            # Solve (optionally re-solve SEEP first)
+            analyses_to_solve = []
+            if seep_analysis_name:
+                analyses_to_solve.append(seep_analysis_name)
+            analyses_to_solve.append(analysis_name)
+
+            solve_resp = project.SolveAnalyses(gsi.SolveAnalysesRequest(
+                analyses=analyses_to_solve,
+                solve_dependencies=False,
+            ))
+
+            if not solve_resp.all_succeeded:
+                results.append({"value": val, "fos": None, "error": "solve failed"})
+                continue
+
+            # Read FS from critical slip
+            project.LoadResults(gsi.LoadResultsRequest(analysis=analysis_name))
+            crit_resp = project.QueryResults(gsi.QueryResultsRequest(
+                analysis=analysis_name,
+                step=1,
+                table=gsi.ResultType.CriticalSlip,
+                dataparams=[gsi.DataParamType.eSlipFOSMin],
+            ))
+            fos_entry = crit_resp.results.get(gsi.DataParamType.eSlipFOSMin)
+            fos = min(fos_entry.values) if fos_entry and fos_entry.values else None
+
+            results.append({
+                "value":     val,
+                "fos":       round(fos, 4) if fos is not None else None,
+            })
+
+        return _ok({
+            "material":   material_name,
+            "parameter":  parameter,
+            "analysis":   analysis_name,
+            "results":    results,
+        })
+    finally:
+        project.Close()
 
 
 # ---------------------------------------------------------------------------
@@ -726,7 +787,11 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
 
 async def main():
     async with stdio_server() as (read_stream, write_stream):
-        await app.run(read_stream, write_stream, app.create_initialization_options())
+        await app.run(
+            read_stream,
+            write_stream,
+            app.create_initialization_options(),
+        )
 
 
 if __name__ == "__main__":
