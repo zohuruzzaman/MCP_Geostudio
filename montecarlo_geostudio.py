@@ -52,7 +52,7 @@ warnings.filterwarnings("ignore")
 # ---------------------------------------------------------------------------
 
 FILE            = r"E:\Github\MCP_Geostudio\calibration\Metro-Center-slope-final.gsz"
-N_ITER          = 10
+N_ITER          = 10     # set to 2000 for production run
 SEED            = 99
 ANALYSIS_FS     = "FS"                    # coupled SLOPE/W (parent = Rainfall Simulation)
 ANALYSIS_SEEP   = "Rainfall Simulation"   # transient SEEP/W
@@ -393,14 +393,13 @@ def _patch_time_increments(xml_text, analysis_name, time_steps_s,
 # ---------------------------------------------------------------------------
 
 def prepare_temp_gsz(iter_idx, rain_points, total_days, n_storm):
-    """Copy calibrated GSZ, patch rainfall + time increments only."""
+    """Copy calibrated GSZ, patch rainfall + time increments, strip old results."""
     temp_dir = os.path.join(OUT_DIR, f"_train_{iter_idx:05d}")
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
     os.makedirs(temp_dir)
 
     gsz_name = os.path.basename(FILE)
-    gsz_stem = os.path.splitext(gsz_name)[0]
     temp_gsz = os.path.join(temp_dir, gsz_name)
 
     # Read base archive
@@ -409,22 +408,14 @@ def prepare_temp_gsz(iter_idx, rain_points, total_days, n_storm):
         all_data  = {item.filename: zin.read(item.filename)
                      for item in all_items}
 
-    # Find root XML
+    # Find root XML - the one NOT in an analysis subfolder
     analysis_folders = [ANALYSIS_FS, ANALYSIS_SEEP, ANALYSIS_INIT,
                         "Slope Stability"]
     root_xml_key = next(
         (k for k in all_data
-         if k.endswith(gsz_stem + ".xml")
-         and not any(k.startswith(af + "/") for af in analysis_folders)),
+         if k.endswith(".xml") and "/" not in k),
         None
     )
-    if root_xml_key is None:
-        # Fallback: any XML not in a subfolder
-        root_xml_key = next(
-            (k for k in all_data
-             if k.endswith(".xml") and "/" not in k),
-            None
-        )
     if root_xml_key is None:
         raise RuntimeError(f"Root XML not found in {gsz_name}")
 
@@ -443,23 +434,25 @@ def prepare_temp_gsz(iter_idx, rain_points, total_days, n_storm):
     xml_str = _patch_time_increments(xml_str, ANALYSIS_FS,
                                      time_steps_s, total_duration_s)
 
-    # Write patched archive (keep all files, fix ZIP entry names)
+    # Prefixes for stale result folders - strip so solver regenerates
+    result_prefixes = tuple(af + "/" for af in analysis_folders)
+
+    # Write patched archive
+    skipped = 0
     with zipfile.ZipFile(temp_gsz, "w",
                          compression=zipfile.ZIP_DEFLATED) as zout:
         for item in all_items:
             fname = item.filename
             data  = all_data[fname]
 
-            # Fix PyGeoStudio full-path entries if present
-            if gsz_stem + ".xml" in fname:
-                fixed_name = gsz_stem + ".xml"
-                for af in analysis_folders:
-                    if fname.startswith(af + "/") or ("/" + af + "/") in fname:
-                        fixed_name = af + "/" + gsz_stem + ".xml"
-                        break
-                item.filename = fixed_name
-                if fixed_name == gsz_stem + ".xml":
-                    data = xml_str.encode("utf-8")
+            # Skip stale result folders
+            if fname.startswith(result_prefixes):
+                skipped += 1
+                continue
+
+            # Replace root XML with patched version
+            if fname == root_xml_key:
+                data = xml_str.encode("utf-8")
 
             zout.writestr(item, data)
 
