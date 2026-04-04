@@ -1,5 +1,5 @@
 """
-SEEP/W Hydraulic Calibration - Direct Suction Match (v4)
+SEEP/W Hydraulic Calibration - Direct Suction Match (v5)
 =========================================================
 All-XML + GeoCmd.exe approach. No GSI in the calibration loop.
 
@@ -65,11 +65,11 @@ KYX_RATIO_BASE     = 11155.0
 KSAT_UYC_BASE      = 1.004e-07
 
 LOG_KSAT_WYC_MIN   = np.log10(KSAT_WYC_BASE) - 2.0
-LOG_KSAT_WYC_MAX   = np.log10(KSAT_WYC_BASE) + 2.0
+LOG_KSAT_WYC_MAX   = np.log10(KSAT_WYC_BASE) + 4.0   # v5: widened from +2
 LOG_KYX_MIN        = np.log10(1000)
 LOG_KYX_MAX        = np.log10(500000)
 LOG_KSAT_UYC_MIN   = np.log10(KSAT_UYC_BASE) - 2.0
-LOG_KSAT_UYC_MAX   = np.log10(KSAT_UYC_BASE) + 2.0
+LOG_KSAT_UYC_MAX   = np.log10(KSAT_UYC_BASE) + 4.0   # v5: widened from +2
 
 MAX_OPT_ITER       = 100
 
@@ -758,7 +758,7 @@ def objective(params, solver_exe, rain_points, obs_daily):
 # ---------------------------------------------------------------------------
 def main():
     print("=" * 65)
-    print("SEEP/W Hydraulic Calibration - Direct Suction Match (v4)")
+    print("SEEP/W Hydraulic Calibration - Direct Suction Match (v5)")
     print("  Architecture: XML patch + GeoCmd.exe (no GSI in loop)")
     print(f"  Cal window : {CALIB_START} to {CALIB_END}")
     print(f"  Sensors    : 1.5m, 3.0m, 5.0m (suction kPa)")
@@ -805,9 +805,9 @@ def main():
     _cleanup_old_iters()
 
     x0 = np.array([
-        np.log10(5.640e-06),
-        np.log10(80827.0),
-        np.log10(KSAT_UYC_BASE),
+        np.log10(1.0e-04),       # v5: was 5.640e-06 - start much higher
+        np.log10(80827.0),       # KYX - low sensitivity, keep as-is
+        np.log10(1.0e-05),       # v5: was 1.004e-07 - start higher
     ])
     print(f"\nStarting: Ksat_WYC={10**x0[0]:.3e}  "
           f"KYX={10**x0[1]:.0f}  Ksat_UYC={10**x0[2]:.3e}")
