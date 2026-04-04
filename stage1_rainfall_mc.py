@@ -43,7 +43,7 @@ SOLVED_DIR      = os.path.join(OUT_DIR, "solved_gsz")
 STAGE1_LOG      = os.path.join(OUT_DIR, "stage1_rainfall_log.csv")
 STAGE1_SAMPLES  = os.path.join(OUT_DIR, "stage1_samples.csv")
 
-SOLVER_TIMEOUT  = 900
+SOLVER_TIMEOUT  = 1800
 SOLVER_OVERRIDE = None
 
 # Time stepping (days)
@@ -314,17 +314,15 @@ def prepare_temp_gsz(iter_idx, rain_points, total_days, n_storm):
         for item in all_items:
             fname = item.filename
             data  = all_data[fname]
+
+            # Skip stale result folders
             if any(fname.startswith(p) for p in result_prefixes):
                 continue
-            if gsz_stem + ".xml" in fname:
-                fixed_name = gsz_stem + ".xml"
-                for af in analysis_folders:
-                    if fname.startswith(af + "/") or ("/" + af + "/") in fname:
-                        fixed_name = af + "/" + gsz_stem + ".xml"
-                        break
-                item.filename = fixed_name
-                if fixed_name == gsz_stem + ".xml":
-                    data = xml_str.encode("utf-8")
+
+            # Replace root XML with patched version
+            if fname == root_xml_key:
+                data = xml_str.encode("utf-8")
+
             zout.writestr(item, data)
 
     return temp_gsz, temp_dir

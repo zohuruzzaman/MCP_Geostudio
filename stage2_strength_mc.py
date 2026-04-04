@@ -52,7 +52,7 @@ ANALYSIS_INIT   = "Initial Condition"
 N_STRENGTH      = 30          # strength combos PER rainfall scenario
 STRENGTH_SEED   = 7777
 
-SOLVER_TIMEOUT  = 300         # shorter — SLOPE/W alone should be fast
+SOLVER_TIMEOUT  = 1200        # increased to 20 minutes for parallel loads
 SOLVER_OVERRIDE = None
 
 # ---------------------------------------------------------------------------
@@ -188,16 +188,9 @@ def prepare_strength_gsz(solved_gsz_path, c_awyc, phi_awyc, c_wyc, phi_wyc,
                     skipped += 1
                     continue
 
-            # Patch root XML with new strength params
-            if gsz_stem + ".xml" in fname:
-                fixed_name = gsz_stem + ".xml"
-                for af in analysis_folders:
-                    if fname.startswith(af + "/") or ("/" + af + "/") in fname:
-                        fixed_name = af + "/" + gsz_stem + ".xml"
-                        break
-                item.filename = fixed_name
-                if fixed_name == gsz_stem + ".xml":
-                    data = xml_str.encode("utf-8")
+            # Replace root XML with patched version
+            if fname == root_xml_key:
+                data = xml_str.encode("utf-8")
 
             zout.writestr(item, data)
 
