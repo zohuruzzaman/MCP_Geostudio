@@ -953,7 +953,6 @@ def main():
         print(f"  P(FS < 1.5) : {(arr < 1.5).mean()*100:.2f}%")
 
     print(f"\n{'=' * 65}")
-yesyes
 
 if __name__ == "__main__":
     main()
