@@ -52,7 +52,7 @@ ANALYSIS_INIT   = "Initial Condition"
 N_STRENGTH      = 30          # strength combos PER rainfall scenario
 STRENGTH_SEED   = 7777
 
-SOLVER_TIMEOUT  = 1800        # increased to 20 minutes for parallel loads
+SOLVER_TIMEOUT  = 3600        # increased to 20 minutes for parallel loads
 SOLVER_OVERRIDE = None
 
 # ---------------------------------------------------------------------------
