@@ -21,9 +21,9 @@ Output:
     Each row: rainfall params + strength params + 201 PWP values + FS
 
 Usage:
-    python stage2_strength_mc.py                      # all rainfall scenarios
-    python stage2_strength_mc.py --start 1  --end 37  # terminal 1
-    python stage2_strength_mc.py --start 38 --end 75  # terminal 2
+    python stage2_strength_mc.py --height 20                      # all rainfall scenarios
+    python stage2_strength_mc.py --height 20 --start 1  --end 50  # terminal 1
+    python stage2_strength_mc.py --height 20 --start 51 --end 100 # terminal 2
 """
 
 import sys, os, re, glob, shutil, zipfile, csv, io, warnings, subprocess, time
@@ -38,12 +38,14 @@ warnings.filterwarnings("ignore")
 # CONFIG
 # ---------------------------------------------------------------------------
 
-OUT_DIR         = r"E:\Github\MCP_Geostudio\training"
-SOLVED_DIR      = os.path.join(OUT_DIR, "solved_gsz")
-STAGE1_LOG      = os.path.join(OUT_DIR, "stage1_rainfall_log.csv")
-OUT_CSV         = os.path.join(OUT_DIR, "training_data_combined.csv")
-CHECKPOINT_CSV  = os.path.join(OUT_DIR, "stage2_checkpoint.csv")
-TEMP_ROOT       = os.path.join(OUT_DIR, "_stage2_temp")
+OUT_DIR         = "training"
+# These will become e.g. training/H20/solved_gsz/, training/H20/training_data_combined.csv
+HEIGHT          = None  # set in main()
+SOLVED_DIR      = None  # set in main()
+STAGE1_LOG      = None  # set in main()
+OUT_CSV         = None  # set in main()
+CHECKPOINT_CSV  = None  # set in main()
+TEMP_ROOT       = None  # set in main()
 
 ANALYSIS_FS     = "FS"
 ANALYSIS_SEEP   = "Rainfall Simulation"
@@ -85,9 +87,9 @@ def find_solver():
 
 
 def run_solver(solver_exe, gsz_path):
-    # ONLY solve the "FS" analysis to completely skip redundant SEEP/W solves
     result = subprocess.run(
-        [solver_exe, gsz_path, "/solve", "FS"],
+	[solver_exe, gsz_path, "/solve", "FS"],
+        #[solver_exe, "/solve", gsz_path],
         capture_output=True, text=True, timeout=SOLVER_TIMEOUT
     )
     if result.returncode != 0:
@@ -341,7 +343,7 @@ def load_stage1_log():
 
 def build_header(n_nodes):
     cols = [
-        "rain_id", "strength_id",
+        "rain_id", "strength_id", "slope_height_ft",
         # Rainfall params
         "return_period_yr", "storm_duration_days",
         "shape_param", "antecedent_state", "total_depth_in",
@@ -361,15 +363,31 @@ def build_header(n_nodes):
 # ---------------------------------------------------------------------------
 
 def main():
+    global HEIGHT, SOLVED_DIR, STAGE1_LOG, OUT_CSV, CHECKPOINT_CSV, TEMP_ROOT
+
     parser = argparse.ArgumentParser(description="Stage 2: Strength Monte Carlo")
+    parser.add_argument("--height", type=int, required=True,
+                        help="Slope height in feet (15, 20, 25, or 30)")
     parser.add_argument("--start", type=int, default=None,
                         help="First rain_id to process (default: all)")
     parser.add_argument("--end", type=int, default=None,
                         help="Last rain_id to process (default: all)")
+    parser.add_argument("--yes", "-y", action="store_true",
+                        help="Skip confirmation prompt (for batch/automated runs)")
     args = parser.parse_args()
+
+    # Set paths based on height
+    HEIGHT         = args.height
+    HEIGHT_DIR     = os.path.join(OUT_DIR, f"H{HEIGHT}")
+    SOLVED_DIR     = os.path.join(HEIGHT_DIR, "solved_gsz")
+    STAGE1_LOG     = os.path.join(HEIGHT_DIR, "stage1_rainfall_log.csv")
+    OUT_CSV        = os.path.join(HEIGHT_DIR, "training_data_combined.csv")
+    CHECKPOINT_CSV = os.path.join(HEIGHT_DIR, "stage2_checkpoint.csv")
+    TEMP_ROOT      = os.path.join(HEIGHT_DIR, "_stage2_temp")
 
     print("=" * 65)
     print("STAGE 2: Strength Parameter Monte Carlo")
+    print(f"  Height       : {HEIGHT} ft")
     print(f"  Solved GSZs  : {SOLVED_DIR}")
     print(f"  Strength LHS : {N_STRENGTH} combos per rainfall scenario")
     print(f"  Output       : {OUT_CSV}")
@@ -441,9 +459,10 @@ def main():
     remaining = total_in_range - done_in_range
     print(f"  In this range: {done_in_range} done, {remaining} remaining")
 
-    resp = input(f"\nProceed with Stage 2? (Y/n): ").strip().lower()
-    if resp == 'n':
-        return
+    if not args.yes:
+        resp = input(f"\nProceed with Stage 2? (Y/n): ").strip().lower()
+        if resp == 'n':
+            return
 
     # Prepare output (append mode — safe for parallel terminals)
     header = build_header(n_nodes)
@@ -460,6 +479,7 @@ def main():
             "# Two-Stage Monte Carlo Training Database",
             "# Metro Center Slope, Jackson MS (Yazoo Clay)",
             f"# Generated: {now}",
+            f"# Slope height: {HEIGHT} ft",
             f"# Rainfall scenarios: {len(available)} (from Stage 1)",
             f"# Strength combos: {N_STRENGTH} per scenario",
             f"# Total rows: {len(available) * N_STRENGTH}",
@@ -533,6 +553,7 @@ def main():
                 row = {
                     "rain_id": rid,
                     "strength_id": sid,
+                    "slope_height_ft": HEIGHT,
                     "return_period_yr":    rp["return_period_yr"],
                     "storm_duration_days": rp["storm_duration_days"],
                     "shape_param":         rp["shape_param"],

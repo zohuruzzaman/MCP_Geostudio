@@ -7,7 +7,7 @@ with zipfile.ZipFile(r"E:\Github\MCP_Geostudio\MCP\Metro-Center-slope-final.gsz"
 '''
 import zipfile, struct
 
-with zipfile.ZipFile(r"E:\Github\MCP_Geostudio\MCP\Metro-Center-slope-final.gsz", "r") as z:
+with zipfile.ZipFile(r"E:\Github\MCP_Geostudio\MCP\Metro-Center-slope-25ft.gsz", "r") as z:
     raw = z.read("mesh_3.ply")
 
 # Find end of header
