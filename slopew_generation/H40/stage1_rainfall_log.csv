@@ -1,0 +1,4 @@
+rain_id,slope_height_ft,return_period_yr,storm_duration_days,shape_param,antecedent_state,total_depth_in,API_7d_mm,API_14d_mm,API_21d_mm,API_30d_mm,n_fs_steps,min_fs_calib_strength,min_fs_step,n_pwp_nodes,pwp_min,pwp_max,solve_time_s,status
+1,40,1.683,3,0.3805,normal,5.3221,34.0,36.0,37.7,182.0,17,0.544767,16,219,-2497.2,3601.1,690.8,OK
+2,40,80.505,4,0.0796,dry,10.9771,0.5,4.2,14.7,85.7,18,0.544763,17,219,-2497.2,3606.7,727.8,OK
+3,40,744.537,9,0.8764,normal,16.3277,30.4,56.6,105.0,182.1,23,0.544746,22,219,-2497.1,3631.6,925.1,OK

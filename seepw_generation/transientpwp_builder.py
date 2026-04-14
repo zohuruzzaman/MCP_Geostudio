@@ -187,7 +187,10 @@ def _patch_rainfall(xml_text, rain_points):
 
 def _patch_time_increments(xml_text, analysis_name, time_steps_s,
                            total_duration_s):
-    """Patch TimeIncrements for a named analysis."""
+    """Patch TimeIncrements for a named analysis.
+    Preserves the existing <Start> value so child analyses (Rainfall Simulation)
+    don't get repositioned before their parent (Initial Condition) ends.
+    """
     idx = xml_text.find(f">{analysis_name}<")
     if idx == -1:
         return xml_text
@@ -196,9 +199,13 @@ def _patch_time_increments(xml_text, analysis_name, time_steps_s,
     if "<TimeIncrements" not in chunk:
         return xml_text
 
+    # Preserve the existing Start value from the original XML
+    existing_start_match = re.search(r'<Start>([^<]+)</Start>', chunk)
+    start_val = existing_start_match.group(1) if existing_start_match else "0"
+
     n_steps = len(time_steps_s)
     new_ti = (f"<TimeIncrements>\n"
-              f"        <Start>0</Start>\n"
+              f"        <Start>{start_val}</Start>\n"
               f"        <Duration>{total_duration_s}</Duration>\n"
               f"        <IncrementOption>Exponential</IncrementOption>\n"
               f"        <IncrementCount>{n_steps}</IncrementCount>\n"

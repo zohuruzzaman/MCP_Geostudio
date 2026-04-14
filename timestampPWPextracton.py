@@ -265,7 +265,7 @@ def detect_structure(path):
         return [(height, gsz_sub, samples)]
 
     # Direct folder of GSZ files
-    gsz_files = glob.glob(os.path.join(path, "rain_*.gsz"))
+    gsz_files = glob.glob(os.path.join(path, "*.gsz"))
     if gsz_files:
         height_match = re.search(r'H(\d+)', path)
         height = int(height_match.group(1)) if height_match else None
@@ -283,7 +283,7 @@ def detect_structure(path):
 # ---------------------------------------------------------------------------
 
 def extract_height(height, gsz_dir, samples_csv, output_csv):
-    files = sorted(glob.glob(os.path.join(gsz_dir, "rain_*.gsz")))
+    files = sorted(glob.glob(os.path.join(gsz_dir, "*.gsz")))
     if not files:
         print(f"  No rain_*.gsz files in {gsz_dir}")
         return 0
@@ -409,7 +409,7 @@ Examples:
     print("=" * 70)
     print(f"Root: {path}")
     for h, d, s in targets:
-        n = len(glob.glob(os.path.join(d, "rain_*.gsz")))
+        n = len(glob.glob(os.path.join(d, "*.gsz")))
         print(f"  H{h or '?'}: {n} files in {d}")
     print("=" * 70)
 
@@ -417,7 +417,7 @@ Examples:
     total_rows = 0
 
     for height, gsz_dir, samples_csv in targets:
-        n_files = len(glob.glob(os.path.join(gsz_dir, "rain_*.gsz")))
+        n_files = len(glob.glob(os.path.join(gsz_dir, "*.gsz")))
         if n_files == 0:
             continue
 
@@ -427,11 +427,15 @@ Examples:
         if args.output_dir:
             out_dir = args.output_dir
         elif height:
-            out_dir = os.path.dirname(gsz_dir)  # parent of solved_gsz/
+            if gsz_dir.endswith("solved_gsz"):
+                out_dir = os.path.dirname(gsz_dir)
+            else:
+                out_dir = gsz_dir
         else:
             out_dir = gsz_dir
 
-        output_csv = os.path.join(out_dir, "transient_data.csv")
+        h_suffix = f"_H{height}" if height else ""
+        output_csv = os.path.join(out_dir, f"transient_data{h_suffix}.csv")
         total_rows += extract_height(height, gsz_dir, samples_csv, output_csv)
 
     elapsed = timer_mod.time() - t_start
