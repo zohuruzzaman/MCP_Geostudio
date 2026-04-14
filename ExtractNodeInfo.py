@@ -1,10 +1,4 @@
 import zipfile, re, csv
-'''
-with zipfile.ZipFile(r"E:\Github\MCP_Geostudio\MCP\Metro-Center-slope-final.gsz", "r") as z:
-    for f in sorted(z.namelist()):
-        if not f.endswith(".csv"):
-            print(f"{f:60s}  {z.getinfo(f).file_size:>10,} bytes")
-'''
 import zipfile, struct
 
 with zipfile.ZipFile(r"E:\Github\MCP_Geostudio\MCP\Metro-Center-slope-25ft.gsz", "r") as z:
