@@ -2742,3 +2742,240 @@ The selected analysis method is not support"
 75,29,OK
 75,30,OK
 94,1,OK
+94,2,OK
+98,1,OK
+98,2,OK
+94,3,OK
+94,4,OK
+98,3,OK
+94,5,OK
+98,4,OK
+94,6,OK
+98,5,OK
+94,7,OK
+98,6,OK
+94,8,OK
+98,7,OK
+98,8,OK
+94,9,OK
+98,9,OK
+94,10,OK
+94,11,OK
+98,10,OK
+94,12,OK
+98,11,OK
+94,13,"FAILED: Solver exit 1: GeoCmd - GeoStudio 2025.2.1, version 25.2.1.39
+Copyright © 2026 Bentley Systems, Incorporated. All rights reserved.
+Processing ""rain_0094.gsz""
+
+...solving... Loading E:\Github\MCP_Geostudio\training\_stage2_temp\r0094_s013\rain_0094.gsz
+...solve complete.
+
+
+Some analyses in this file will be unavai"
+98,12,"FAILED: Solver exit 1: GeoCmd - GeoStudio 2025.2.1, version 25.2.1.39
+Copyright © 2026 Bentley Systems, Incorporated. All rights reserved.
+Processing ""rain_0098.gsz""
+
+...solving... Loading E:\Github\MCP_Geostudio\training\_stage2_temp\r0098_s012\rain_0098.gsz
+...solve complete.
+
+
+Some analyses in this file will be unavai"
+94,14,"FAILED: Solver exit 1: GeoCmd - GeoStudio 2025.2.1, version 25.2.1.39
+Copyright © 2026 Bentley Systems, Incorporated. All rights reserved.
+Processing ""rain_0094.gsz""
+
+...solving... Loading E:\Github\MCP_Geostudio\training\_stage2_temp\r0094_s014\rain_0094.gsz
+...solve complete.
+The selected analysis method is not support"
+98,13,"FAILED: Solver exit 1: GeoCmd - GeoStudio 2025.2.1, version 25.2.1.39
+Copyright © 2026 Bentley Systems, Incorporated. All rights reserved.
+Processing ""rain_0098.gsz""
+
+...solving... Loading E:\Github\MCP_Geostudio\training\_stage2_temp\r0098_s013\rain_0098.gsz
+...solve complete.
+The selected analysis method is not support"
+94,15,OK
+98,14,OK
+94,16,OK
+98,15,OK
+94,17,OK
+98,16,OK
+94,18,OK
+98,17,OK
+98,18,OK
+94,19,OK
+94,20,OK
+98,19,OK
+98,20,OK
+94,21,OK
+98,21,OK
+94,22,OK
+94,23,OK
+98,22,OK
+98,23,OK
+94,24,OK
+94,25,OK
+98,24,OK
+98,25,OK
+94,26,OK
+98,26,OK
+94,27,OK
+98,27,OK
+94,28,OK
+98,28,OK
+94,29,OK
+98,29,OK
+94,30,OK
+95,1,OK
+98,30,OK
+99,1,OK
+95,2,OK
+99,2,OK
+95,3,OK
+99,3,OK
+95,4,OK
+99,4,OK
+95,5,OK
+99,5,OK
+95,6,OK
+95,7,OK
+99,6,OK
+95,8,OK
+99,7,OK
+99,8,OK
+95,9,OK
+95,10,OK
+99,9,OK
+95,11,OK
+99,10,OK
+95,12,OK
+99,11,OK
+95,13,OK
+99,12,OK
+99,13,OK
+95,14,OK
+95,15,OK
+99,14,OK
+99,15,OK
+95,16,OK
+95,17,OK
+99,16,OK
+99,17,OK
+95,18,OK
+99,18,OK
+95,19,OK
+95,20,OK
+99,19,OK
+99,20,OK
+95,21,OK
+95,22,OK
+99,21,OK
+95,23,OK
+99,22,OK
+99,23,OK
+95,24,OK
+95,25,OK
+99,24,OK
+95,26,OK
+99,25,OK
+95,27,OK
+99,26,OK
+99,27,OK
+95,28,OK
+95,29,OK
+99,28,OK
+99,29,OK
+95,30,OK
+96,1,OK
+99,30,OK
+100,1,OK
+96,2,OK
+100,2,OK
+96,3,OK
+100,3,OK
+96,4,OK
+100,4,OK
+96,5,OK
+100,5,OK
+96,6,OK
+96,7,OK
+100,6,OK
+96,8,OK
+100,7,OK
+100,8,OK
+96,9,OK
+100,9,OK
+96,10,OK
+96,11,OK
+100,10,OK
+96,12,OK
+100,11,OK
+96,13,OK
+100,12,OK
+96,14,OK
+100,13,OK
+96,15,OK
+100,14,OK
+100,15,OK
+96,16,OK
+96,17,OK
+100,16,OK
+96,18,OK
+100,17,OK
+100,18,OK
+96,19,OK
+96,20,OK
+100,19,OK
+100,20,OK
+96,21,OK
+96,22,OK
+100,21,OK
+96,23,OK
+100,22,OK
+100,23,OK
+96,24,OK
+96,25,OK
+100,24,OK
+96,26,OK
+100,25,OK
+96,27,OK
+100,26,OK
+96,28,OK
+100,27,OK
+96,29,OK
+100,28,OK
+100,29,OK
+96,30,OK
+97,1,OK
+100,30,OK
+97,2,OK
+97,3,OK
+97,4,OK
+97,5,OK
+97,6,OK
+97,7,OK
+97,8,OK
+97,9,OK
+97,10,OK
+97,11,OK
+97,12,OK
+97,13,OK
+97,14,OK
+97,15,OK
+97,16,OK
+97,17,OK
+97,18,OK
+97,19,OK
+97,20,OK
+97,21,OK
+97,22,OK
+97,23,OK
+97,24,OK
+97,25,OK
+97,26,OK
+97,27,OK
+97,28,OK
+97,29,OK
+97,30,OK

@@ -34,21 +34,25 @@ import pandas as pd
 
 warnings.filterwarnings("ignore")
 
+# Resolve project-local paths relative to this script so CLI CWD does not matter.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # ---------------------------------------------------------------------------
 # CONFIG - Update these paths for your system
 # ---------------------------------------------------------------------------
 
 # Calibrated GSZ per height (same as stage1_rainfall_mc.py)
 GSZ_BY_HEIGHT = {
-    15: os.path.join("calibration", "Metro-Center-slope-H15.gsz"),
-    20: os.path.join("calibration", "Metro-Center-slope-H20.gsz"),
-    25: os.path.join("calibration", "Metro-Center-slope-H25.gsz"),
-    30: os.path.join("calibration", "Metro-Center-slope-H30.gsz"),
-    40: os.path.join("calibration", "Metro-Center-slope-H40.gsz"),
+    15: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H15.gsz"),
+    20: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H20.gsz"),
+    25: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H25.gsz"),
+    30: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H30.gsz"),
+    40: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H40.gsz"),
+    18: os.path.join(SCRIPT_DIR, "calibration", "Metro-Center-slope-H18.gsz"),
 }
 
 # Output directory
-OUT_DIR = "training"
+OUT_DIR = os.path.join(SCRIPT_DIR, "training")
 
 # Analysis names (must match what's in the GSZ)
 ANALYSIS_FS   = "FS"
@@ -185,36 +189,62 @@ def _patch_rainfall(xml_text, rain_points):
     return xml_text[:idx] + new_chunk + xml_text[chunk_end:]
 
 
-def _patch_time_increments(xml_text, analysis_name, time_steps_s,
-                           total_duration_s):
-    """Patch TimeIncrements for a named analysis.
-    Preserves the existing <Start> value so child analyses (Rainfall Simulation)
-    don't get repositioned before their parent (Initial Condition) ends.
-    """
+def _parse_seconds(val, default=0):
+    try:
+        return int(round(float(str(val).strip())))
+    except Exception:
+        return default
+
+
+def _get_analysis_window(xml_text, analysis_name):
     idx = xml_text.find(f">{analysis_name}<")
     if idx == -1:
-        return xml_text
-    chunk_end = xml_text.find("</Analysis>", idx)
-    chunk = xml_text[idx:chunk_end]
-    if "<TimeIncrements" not in chunk:
+        return None, None, None
+    a_start = xml_text.rfind("<Analysis", 0, idx)
+    a_end = xml_text.find("</Analysis>", idx)
+    if a_start == -1 or a_end == -1:
+        return None, None, None
+    a_end += len("</Analysis>")
+    return a_start, a_end, xml_text[a_start:a_end]
+
+
+def _get_initial_condition_end(xml_text):
+    _, _, init_chunk = _get_analysis_window(xml_text, ANALYSIS_INIT)
+    if not init_chunk:
+        return 0
+    start_m = re.search(r'<Start>([^<]+)</Start>', init_chunk)
+    dur_m = re.search(r'<Duration>([^<]+)</Duration>', init_chunk)
+    start_s = _parse_seconds(start_m.group(1), default=0) if start_m else 0
+    dur_s = _parse_seconds(dur_m.group(1), default=0) if dur_m else 0
+    return start_s + dur_s
+
+
+def _patch_time_increments(xml_text, analysis_name, time_steps_s,
+                           total_duration_s, min_start_s=0):
+    """Patch TimeIncrements for one analysis with consistent absolute timing."""
+    a_start, a_end, chunk = _get_analysis_window(xml_text, analysis_name)
+    if chunk is None or "<TimeIncrements" not in chunk:
         return xml_text
 
-    # Preserve the existing Start value from the original XML
     existing_start_match = re.search(r'<Start>([^<]+)</Start>', chunk)
-    start_val = existing_start_match.group(1) if existing_start_match else "0"
+    existing_start_s = (_parse_seconds(existing_start_match.group(1), default=min_start_s)
+                        if existing_start_match else min_start_s)
+    start_s = max(min_start_s, existing_start_s)
 
     n_steps = len(time_steps_s)
     new_ti = (f"<TimeIncrements>\n"
-              f"        <Start>{start_val}</Start>\n"
+              f"        <Start>{start_s}</Start>\n"
               f"        <Duration>{total_duration_s}</Duration>\n"
               f"        <IncrementOption>Exponential</IncrementOption>\n"
               f"        <IncrementCount>{n_steps}</IncrementCount>\n"
               f'        <TimeSteps Len="{n_steps}">\n')
-    prev = 0
-    for elapsed in time_steps_s:
-        new_ti += (f'          <TimeStep Step="{elapsed - prev}" '
-                   f'ElapsedTime="{elapsed}" Save="true" />\n')
-        prev = elapsed
+
+    prev_abs = start_s
+    for rel_elapsed in time_steps_s:
+        abs_elapsed = start_s + rel_elapsed
+        new_ti += (f'          <TimeStep Step="{abs_elapsed - prev_abs}" '
+                   f'ElapsedTime="{abs_elapsed}" Save="true" />\n')
+        prev_abs = abs_elapsed
     new_ti += "        </TimeSteps>\n      </TimeIncrements>"
 
     old_chunk = chunk
@@ -225,7 +255,8 @@ def _patch_time_increments(xml_text, analysis_name, time_steps_s,
                        new_ti, old_chunk, count=1, flags=re.DOTALL)
         if chunk == old_chunk:
             return xml_text
-    return xml_text[:idx] + chunk + xml_text[chunk_end:]
+
+    return xml_text[:a_start] + chunk + xml_text[a_end:]
 
 
 # ---------------------------------------------------------------------------
@@ -268,12 +299,15 @@ def build_transient_gsz(height, rain_points, time_steps_s, total_days,
     print(f"  Rainfall patched: {len(rain_points)} daily points")
 
     # Patch time increments for BOTH transient analyses
+    min_start_s = _get_initial_condition_end(xml_str)
     xml_str = _patch_time_increments(xml_str, ANALYSIS_SEEP,
-                                     time_steps_s, total_duration_s)
+                                     time_steps_s, total_duration_s,
+                                     min_start_s=min_start_s)
     xml_str = _patch_time_increments(xml_str, ANALYSIS_FS,
-                                     time_steps_s, total_duration_s)
+                                     time_steps_s, total_duration_s,
+                                     min_start_s=min_start_s)
     print(f"  Time increments patched: {len(time_steps_s)} save points "
-          f"(every {SAVE_INTERVAL_DAYS} days)")
+          f"(every {SAVE_INTERVAL_DAYS} days, start={min_start_s}s)")
 
     # Strip ALL old results
     result_prefixes = tuple(af + "/" for af in analysis_folders)
@@ -374,6 +408,12 @@ Examples:
                         help="Which sensor position for precipitation (default: Crest)")
 
     args = parser.parse_args()
+
+    # If sensor path is relative, allow both caller CWD and script folder.
+    if not os.path.isabs(args.sensor_csv) and not os.path.exists(args.sensor_csv):
+        alt_sensor = os.path.join(SCRIPT_DIR, args.sensor_csv)
+        if os.path.exists(alt_sensor):
+            args.sensor_csv = alt_sensor
 
     if not args.height and not args.all:
         parser.print_help()
