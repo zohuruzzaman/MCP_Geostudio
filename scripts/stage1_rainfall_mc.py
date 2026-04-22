@@ -14,9 +14,9 @@ Output:
   - stage1_samples.csv          : raw LHS sample values for reproducibility
 
 Usage:
-    python stage1_rainfall_mc.py                     # run all 75
-    python stage1_rainfall_mc.py --start 1  --end 37  # terminal 1
-    python stage1_rainfall_mc.py --start 38 --end 75  # terminal 2
+    python stage1_rainfall_mc.py --height 20                     # run all
+    python stage1_rainfall_mc.py --height 20 --start 1  --end 50 # terminal 1
+    python stage1_rainfall_mc.py --height 20 --start 51 --end 100 # terminal 2
 """
 
 import sys, os, re, glob, shutil, zipfile, csv, io, warnings, subprocess, time
@@ -31,19 +31,31 @@ warnings.filterwarnings("ignore")
 # CONFIG
 # ---------------------------------------------------------------------------
 
-FILE            = r"E:\Github\MCP_Geostudio\calibration\Metro-Center-slope-final.gsz"
-N_RAIN          = 100                     # rainfall scenarios (50-100 recommended)
-SEED            = 42
+# One GSZ per slope height — geometry differs, soil params identical
+# Place calibrated GSZ files in calibration/ subfolder relative to this script
+GSZ_BY_HEIGHT = {
+    15: os.path.join("calibration", "Metro-Center-slope-H15.gsz"),
+    20: os.path.join("calibration", "Metro-Center-slope-H20.gsz"),
+    25: os.path.join("calibration", "Metro-Center-slope-H25.gsz"),
+    30: os.path.join("calibration", "Metro-Center-slope-H30.gsz"),
+}
+
+N_RAIN          = 100                    # rainfall scenarios per height
+SEED            = 42                      # same seed = same rainfall across heights
 ANALYSIS_FS     = "FS"
 ANALYSIS_SEEP   = "Rainfall Simulation"
 ANALYSIS_INIT   = "Initial Condition"
 
-OUT_DIR         = r"E:\Github\MCP_Geostudio\training"
-SOLVED_DIR      = os.path.join(OUT_DIR, "solved_gsz")
-STAGE1_LOG      = os.path.join(OUT_DIR, "stage1_rainfall_log.csv")
-STAGE1_SAMPLES  = os.path.join(OUT_DIR, "stage1_samples.csv")
+# Paths — set dynamically in main() based on --height
+OUT_DIR         = "training"
+# These will become e.g. training/H20/solved_gsz/, training/H20/stage1_rainfall_log.csv
+FILE            = None  # set in main()
+HEIGHT          = None  # set in main()
+SOLVED_DIR      = None  # set in main()
+STAGE1_LOG      = None  # set in main()
+STAGE1_SAMPLES  = None  # set in main()
 
-SOLVER_TIMEOUT  = 1800
+SOLVER_TIMEOUT  = 3600
 SOLVER_OVERRIDE = None
 
 # Time stepping (days)
@@ -268,7 +280,7 @@ def _patch_time_increments(xml_text, analysis_name, time_steps_s,
 # ---------------------------------------------------------------------------
 
 def prepare_temp_gsz(iter_idx, rain_points, total_days, n_storm):
-    temp_dir = os.path.join(OUT_DIR, f"_stage1_{iter_idx:04d}")
+    temp_dir = os.path.join(OUT_DIR, f"_stage1_H{HEIGHT}_{iter_idx:04d}")
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
     os.makedirs(temp_dir)
@@ -414,18 +426,34 @@ def transform_sample(s):
 # ---------------------------------------------------------------------------
 
 def main():
+    global SOLVED_DIR, STAGE1_LOG, STAGE1_SAMPLES, FILE, HEIGHT
+
     parser = argparse.ArgumentParser(description="Stage 1: Rainfall Monte Carlo")
+    parser.add_argument("--height", type=int, required=True,
+                        choices=sorted(GSZ_BY_HEIGHT.keys()),
+                        help="Slope height in feet (15, 20, 25, or 30)")
     parser.add_argument("--start", type=int, default=1,
                         help="First rain_id to process (default: 1)")
     parser.add_argument("--end", type=int, default=N_RAIN,
                         help=f"Last rain_id to process (default: {N_RAIN})")
+    parser.add_argument("--yes", "-y", action="store_true",
+                        help="Skip confirmation prompt (for batch/automated runs)")
     args = parser.parse_args()
+
+    # Set paths based on height
+    HEIGHT      = args.height
+    FILE        = GSZ_BY_HEIGHT[HEIGHT]
+    HEIGHT_DIR  = os.path.join(OUT_DIR, f"H{HEIGHT}")
+    SOLVED_DIR  = os.path.join(HEIGHT_DIR, "solved_gsz")
+    STAGE1_LOG  = os.path.join(HEIGHT_DIR, "stage1_rainfall_log.csv")
+    STAGE1_SAMPLES = os.path.join(HEIGHT_DIR, "stage1_samples.csv")
 
     run_start = args.start
     run_end   = min(args.end, N_RAIN)
 
     print("=" * 65)
     print("STAGE 1: Rainfall Monte Carlo — Generate PWP Fields")
+    print(f"  Height    : {HEIGHT} ft")
     print(f"  Input     : {FILE}")
     print(f"  Range     : {run_start} to {run_end} of {N_RAIN} total")
     print(f"  Saved to  : {SOLVED_DIR}")
@@ -473,9 +501,10 @@ def main():
     print(f"\n  Range {run_start}-{run_end}: {len(to_run)} to run "
           f"({len(in_range - to_run)} already done)")
 
-    resp = input(f"\nProceed? (Y/n): ").strip().lower()
-    if resp == 'n':
-        return
+    if not args.yes:
+        resp = input(f"\nProceed? (Y/n): ").strip().lower()
+        if resp == 'n':
+            return
 
     # Open log file (append mode — safe for parallel terminals)
     log_is_new = not os.path.exists(STAGE1_LOG)
@@ -483,7 +512,8 @@ def main():
     log_writer = csv.writer(log_file)
     if log_is_new:
         log_writer.writerow([
-            "rain_id", "return_period_yr", "storm_duration_days",
+            "rain_id", "slope_height_ft",
+            "return_period_yr", "storm_duration_days",
             "shape_param", "antecedent_state", "total_depth_in",
             "API_7d_mm", "API_14d_mm", "API_21d_mm", "API_30d_mm",
             "n_fs_steps", "min_fs_calib_strength", "min_fs_step",
@@ -534,7 +564,7 @@ def main():
             print(f"FS={fs_str}  steps={n_fs}  nodes={len(pwp)}")
 
             log_writer.writerow([
-                i, round(rp, 3), duration, round(shape, 4), state,
+                i, HEIGHT, round(rp, 3), duration, round(shape, 4), state,
                 round(total_depth, 4),
                 apis["API_7d"], apis["API_14d"], apis["API_21d"], apis["API_30d"],
                 n_fs,
@@ -551,7 +581,7 @@ def main():
         except Exception as e:
             print(f"FAILED - {e}")
             log_writer.writerow([
-                i, round(rp, 3), duration, round(shape, 4), state,
+                i, HEIGHT, round(rp, 3), duration, round(shape, 4), state,
                 round(total_depth, 4),
                 apis["API_7d"], apis["API_14d"], apis["API_21d"], apis["API_30d"],
                 0, "N/A", "N/A", 0, "N/A", "N/A", 0, f"FAILED: {e}"
